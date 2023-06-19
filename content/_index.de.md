@@ -5,5 +5,5 @@ page_template = "page.html"
 sort_by = "title"
 +++
 
-Studiert Computer Science im zu vielten Semester. Hat mal ein GUI für das [RescueRespiration](https://rescue-respiration.org) Beatmungsgerät gecoded. Sonst viel Webentwicklung. Fotografiert in seiner Freizeit gerne und fährt liebend gerne Zug.
+Hat mal alle IT-Dinge für den [AStA der TU-Hamburg](https://www.asta.tuhh.de) gemacht. Hat mal ein GUI für das [RescueRespiration](https://rescue-respiration.org) Beatmungsgerät gecoded. Sonst viel Webentwicklung. Fotografiert in seiner Freizeit gerne und fährt liebend gerne Zug.
 
