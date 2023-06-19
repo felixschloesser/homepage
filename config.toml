@@ -48,7 +48,7 @@ description = "A Hompage form and for TinTin"
 
 
 [languages.en.translations]
-occupation = "IT-Guy at AStA Hamburg University of Technology"
+occupation = "CS Student at Hamburg University of Technology"
 by = "by"
 source = "Source"
 source_code = "Source code"
@@ -67,7 +67,7 @@ description = "Eine Hompage von und für TinTin."
 
 
 [languages.de.translations]
-occupation = "IT-Mensch im AStA der TU-Hamburg"
+occupation = "Informatikstundent an der TU-Hamburg"
 by = "von"
 source = "Quelle"
 source_code = "Quelltext"
