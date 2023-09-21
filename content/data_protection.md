@@ -6,8 +6,8 @@ This website does not collect, store or process Personally Identifiable Informat
 
 ### Responsible Person
 Felix Schlösser<br>
-Heimfelder Str. 92<br>
-21075 Hamburg<br>
+Wolfgangsweg 14<br>
+20459 Hamburg<br>
 Germany
 
 

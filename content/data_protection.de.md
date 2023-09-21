@@ -2,12 +2,12 @@
 title = "Datenschutz"
 +++
 
-Diese Website erhebt, speichert und verarbeitet keine personenbezogenen Daten (PII). Diese Website verwendet keine Cookies.
+Diese Website erhebt, speichert und verarbeitet keine persöhnlichen Daten. Diese Website verwendet keine Cookies.
 
 ### Verantwortlicher
 Felix Schlösser<br>
-Heimfelder Str. 92<br>
-21075 Hamburg<br>
+Wolfgangsweg 14<br>
+20459 Hamburg<br>
 
 
 #### Einbeziehung von Dritten

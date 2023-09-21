@@ -6,8 +6,9 @@ Allgemeine Informationspflichten nach § 5 Telemediengesetz (TMG):
 
 ### Name und Anschrift
 Felix Schlösser<br>
-Heimfelder Str. 92<br>
-21075 Hamburg<br>
+Wolfgangsweg 14<br>
+20459 Hamburg<br>
+Germany
 
 **E-Mail:** [info@felixschloesser.de](mailto:info@felixschloesser.de)
 
