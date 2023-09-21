@@ -8,11 +8,6 @@ compile_sass = true
 # content for `default_language`.
 build_search_index = false
 
-# Metadata
-# Empty because of translations
-title = ""
-description = ""
-
 
 [markdown]
 # Whether to do syntax highlighting
