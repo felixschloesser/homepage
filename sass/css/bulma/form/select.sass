@@ -11,7 +11,7 @@ $select-colors: $form-colors !default
     height: $input-height
   &:not(.is-multiple):not(.is-loading)
     &::after
-      @extend %arrow !optional
+      @extend %arrow
       border-color: $input-arrow
       +ltr-position(1.125em)
       z-index: 4
@@ -20,7 +20,7 @@ $select-colors: $form-colors !default
       border-radius: $radius-rounded
       +ltr-property("padding", 1em, false)
   select
-    @extend %input !optional
+    @extend %input
     cursor: pointer
     display: block
     font-size: 1em
@@ -68,14 +68,15 @@ $select-colors: $form-colors !default
   // Modifiers
   &.is-disabled
     &::after
-      border-color: $input-disabled-color
+      border-color: $input-disabled-color !important
+      opacity: 0.5
   &.is-fullwidth
     width: 100%
     select
       width: 100%
   &.is-loading
     &::after
-      @extend %loader !optional
+      @extend %loader
       margin-top: 0
       position: absolute
       +ltr-position(0.625em)

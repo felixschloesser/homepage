@@ -1,6 +1,5 @@
 @import "../utilities/controls"
 @import "../utilities/mixins"
-@import "../utilities/derived-variables"
 
 $form-colors: $colors !default
 
@@ -32,7 +31,7 @@ $input-icon-active-color: $text !default
 $input-radius: $radius !default
 
 =input
-  @extend %control !optional
+  @extend %control
   background-color: $input-background-color
   border-color: $input-border-color
   border-radius: $input-radius

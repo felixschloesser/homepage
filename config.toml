@@ -39,7 +39,7 @@ default_language = "en"
 [languages.en]
 # Language specific settigns
 title = "Felix Schlösser"
-description = "A Hompage form and for TinTin"
+description = "Aka TinTin - Software Engineer from Hamburg, Germany"
 
 
 [languages.en.translations]
@@ -77,7 +77,7 @@ no_images = "Keine Bilder gefunden."
 
 [extra]
 # Put all your custom variables here
-debug=false
+debug=true
 
 brand_text = "TinTin"
 
@@ -85,7 +85,7 @@ author_name = "Felix Schlösser"
 author_nickname = "TinTin"
 author_image="tintin_in_shenzhen.jpg"
 city="Hamburg"
-copyright_year="2021"
+copyright_year="2023"
 
 image_path = "images/tintin_in_shenzhen.jpg"
 image_alt = "Comic cover of TinTin entering a room full of bleeding edge technology with his friends."
@@ -103,6 +103,6 @@ content_licence. link = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 social_links = [
     { url = "https://github.com/felixschloesser/", name="Github", icon = "fab fa-github"},
-    { url = "https://twitter.com/TinTinUnbekannt", name="Twitter", icon = "fab fa-twitter"},
+    { url = "https://noc.social/@tintin", name="Mastodon", icon = "fab fa-mastodon"},
     { url = "mailto:info@felixschloesser.de", name="Mail", icon = "fas fa-envelope"}
 ]
