@@ -1,0 +1,57 @@
+[thesis]
+title = "Privacy Threats in Exposure Notification Protocols: A LINDDUN-driven Approach"
+summary.en = """\
+    Reviewed existing literature to extract a dataset of known privacy threats; \
+    created a Data Flow model and \
+    used the LINDDUN threat trees to elecit privacy threats. \
+    This enabeled the identification of novel privacy threats and provided \
+    new insights into the effectiveness of the LINDDUN and DFD based threat modeling \
+    when applied to distributed software systems.\
+    """
+summary.de = """\
+    Die Arbeit untersucht die Privatsphäegefahren in Exposure Notification Protokollen. \
+    Dazu wurde eine Literaturanalyse durchgeführt, um eine Datenbank von bekannten \
+    Privatsphäregefahren zu erstellen. \
+    Anschließend wurde ein Datenflussmodell erstellt und \
+    die LINDDUN-Bedrohungsbaum-Methode verwendet, um Privatsphäregefahren zu ermitteln. \
+    Dies ermöglichte die Identifizierung neuer Privatsphäregefahren und \
+    lieferte neue Erkenntnisse über die Wirksamkeit der LINDDUN- und DFD-basierten \
+    Bedrohungsmodellierung bei der Anwendung auf verteilte Softwaresysteme.\
+    """
+organisation = "Technische Universität Hamburg"
+department = "Insitute for Software Security"
+supervisors = ["Dr. Nicolás Díaz Ferreyra", "Prof. Dr. Riccardo Scandariato"]
+grade = "2.0"
+keywords = ["Privacy", "Threat Modeling", "Bluetooth LE", "GAEN", "DP-3T"]
+
+
+[[education]]
+title = "Computer Science (B.Sc.)"
+organisation = "Technische Universität Hamburg"
+location.en = "Germany"
+location.de = "Deutschland"
+start_date = "2016-10-01"
+
+[[education]]
+title = "Erasumus+"
+organisation = "Université de Technologie de Compiègne"
+location.en = "France"
+location.de = "Frankreich"
+start_date = "2022-02-01"
+end_date = "2022-08-01"
+
+[[education]]
+title = "Asian Languages and Cultures Certificate"
+organisation = "ISI Language School"
+location.en = "Tokyo, Japan"
+location.de = "Tokio, Japan"
+start_date = "2015-09-01"
+end_date = "2016-07-01"
+
+[[education]]
+title = "Abitur"
+organisation = "Pater Damian Sekundarschule"
+location.en = "Eupen, Belgium"
+location.de = "Eupen, Belgien"
+start_date = "2009-09-01"
+end_date = "2015-06-30"

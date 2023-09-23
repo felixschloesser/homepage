@@ -1,14 +1,19 @@
 +++
-title = "Impressum"
+title = "Imprint"
+weight=3
 +++
 
-Allgemeine Informationspflichten nach § 5 Telemediengesetz (TMG):
+Legal information obligations according to the German Telemedia Act (§ 5 Telemediengesetz):
 
-### Name und Anschrift
+### Name and Address
 Felix Schlösser<br>
 Wolfgangsweg 14<br>
 20459 Hamburg<br>
 Germany
 
 **E-Mail:** [info@felixschloesser.de](mailto:info@felixschloesser.de)
+
+
+
+
 

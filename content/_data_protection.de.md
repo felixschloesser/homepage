@@ -1,5 +1,6 @@
 +++
 title = "Datenschutz"
+weight=2
 +++
 
 Diese Website erhebt, speichert und verarbeitet keine persöhnlichen Daten. Diese Website verwendet keine Cookies.

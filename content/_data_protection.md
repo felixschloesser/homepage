@@ -1,8 +1,9 @@
 +++
 title = "Data Protection"
+weight=2
 +++
 
-This website does not collect, store or process Personally Identifiable Information (PII). This website does not use cookies.
+This website does not collect, store or process personal data. This website does not use cookies.
 
 ### Responsible Person
 Felix Schlösser<br>

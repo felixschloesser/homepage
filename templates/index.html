@@ -13,15 +13,15 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-square">
-                                <img src="{{ get_url(path=config.extra.image_path) }}" alt="{{ config.extra.image_alt }}">
+                                <img src="{{ get_url(path=section.extra.image_path) }}" alt="{{ section.extra.image_alt }}">
                             </figure>
                         </div>
                     </div>
-                    <p class="is-size-7 mt-3">{{ config.extra.image_title }} {{ trans(key="by", lang=lang) }} {{ config.extra.image_author }}: <a href="{{ config.extra.image_link }}">{{ trans(key="source", lang=lang) }}</a>.</p>
+                    <p class="is-size-7 mt-3">{{ section.extra.image_title }} {{ trans(key="by", lang=lang) }} <a href="{{ section.extra.image_source }}">{{ section.extra.image_author }}</a>.</p>
                 </div>
                 <div class="column">
                     <h1 class="title">
-                        {{ config.extra.author_name }}
+                        {{ config.extra.name }}
                     </h1>
 
                     <h2 class="subtitle">
@@ -31,12 +31,12 @@
                     {{ section.content | safe }}
 
                     <hr>
-                    {% for social in config.extra.social_links %}
-                        <a class="tag icon-text mb-2" href="{{ social.url }}">
+                    {% for service in config.extra.social_media %}
+                        <a class="tag icon-text mb-2" href="{{ service.url }}">
                             <span class="icon">
-                                <i class="{{ social.icon }}"></i>
+                                <i class="{{ service.icon }}"></i>
                             </span>
-                            <span>{{ social.name }}</span>
+                            <span>{{ service.name }}</span>
                         </a>
                     {% endfor %}
                 </div>

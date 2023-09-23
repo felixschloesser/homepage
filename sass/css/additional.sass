@@ -1,4 +1,29 @@
-@import 'additional/layout.sass'
-@import 'additional/navbar.sass'
-@import 'additional/utilities.sass'
+// Disable Font Scaling on ios
+html
+  -webkit-text-size-adjust: 100%
+
+
+/* Placing the footer at the bottom */
+body
+  min-height: 120vh
+  min-height: -webkit-fill-available
+
+
+$padding: 1.5rem
+
+.notch-safe
+  // Since these max() calls are valid calculation expressions, they're
+  // parsed as calculations.
+  padding-left: m#{a}x($padding, env(safe-area-inset-left))
+  padding-right: m#{a}x($padding, env(safe-area-inset-right))
+
+
+.container.notch-safe-nav
+  // Since these max() calls are valid calculation expressions, they're
+  // parsed as calculations.
+  padding-left: m#{a}x(0px, calc(env(safe-area-inset-left) - 1.5rem ))
+  padding-right: m#{a}x(0px, calc(env(safe-area-inset-right) - 1.5rem ))
+
+.clickable
+    cursor: pointer
 

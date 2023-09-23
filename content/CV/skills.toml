@@ -1,0 +1,69 @@
+[[programming]]
+name = "Python"
+level = "advanced"
+applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
+
+
+[[programming]]
+name = "Rust"
+level = "intermediate"
+applications = [ "Systems", "GameDev" ]
+
+[[programming]]
+name = "Haskell"
+level = "basic"
+applications = [ "Functional" ]
+
+[[programming]]
+name = "C"
+level = "basic"
+applications = [ "Low-level" ]
+
+[[programming]]
+name = "JavaScript"
+level = "basic"
+applications = [ "Web Frontend" ]
+
+
+
+[[soft]]
+name.en = "Teamwork & Communication"
+name.de = "Teamarbeit & Kommunikation"
+contexts.en = [
+  "First chair of the board of student representatives",
+  "Scout leader",
+  "NGO volunteering",
+]
+contexts.de = [
+  "Erster Vorsitzender des Studierendenausschusses",
+  "Pfadfinderleiter",
+  "Freiwilligenarbeit bei NGOs"
+]
+
+
+[[languages]]
+name.en = "German"
+name.de = "Deutsch"
+level.en = "Native"
+level.de = "Muttersprache"
+
+[[languages]]
+name.en = "English"
+name.de = "Englisch"
+level.en = "C2"
+level.de = "C2"
+
+[[languages]]
+name.en = "French"
+name.de = "Französisch"
+level.en = "C1"
+level.de = "C1"
+
+
+[[languages]]
+name.en = "Japanese"
+name.de = "Japanisch"
+level.en = "JLPT N4"
+level.de = "JLPT N4"
+
+

@@ -1,0 +1,288 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% set personal_data = load_data(path="content/cv/personal.toml") %}
+{% set experience_data = load_data(path="content/cv/experience.toml") %}
+{% set education_data = load_data(path="content/cv/education.toml") %}
+{% set skill_data = load_data(path="content/cv/skills.toml") %}
+
+{% set experience_list = experience_data.experience %}
+{% set thesis = education_data.thesis %}
+{% set education_list = education_data.education %}
+{% set skills = skill_data %}
+
+
+<section class="section notch-safe">
+    <div class="container is-max-desktop">
+        <div class="content">
+            <h1 class="title is-1 mb-4">
+                {{ personal_data.first_name }} {{ personal_data.last_name }}
+            </h1>
+            <h2 class="subtitle is-4 has-text-weight-normal">
+                <div class="columns my-0">
+                    <div class="column py-0">
+                        {{ personal_data.job.role }}
+                    </div>
+                    <div class="column is-narrow py-1">
+                        <div class="buttons">
+                            {# <a class="button is-outlined is-right is-small is-dark">
+                                <span class="icon">
+                                    <i class="fas fa-file-download"></i>
+                                </span>
+                                <span>
+                                    {{ trans(key="download_cv_cta", lang=lang) }}
+                                </span>
+                            </a> #}
+                            <a class="button is-outlined is-right is-small is-link is-danger" href="mailto:{{ personal_data.job.email }}?subject={{ trans(key='email_subject', lang=lang) }}">
+                                <span class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span>
+                                    {{ trans(key="email_cta", lang=lang) }}
+                                </span>
+                            </a>
+                            <a class="button is-outlined is-right is-small is-link" href="{{ config.extra.social_media | filter(attribute="name", value="LinkedIn") | first | get(key="url") }}" >
+                                <span class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </span>
+                                <span>
+                                    {{ trans(key="linkedin_cta", lang=lang) }}
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </h2>
+        </div>
+
+        <div class="columns is-variable is-8">
+            <div class="column is-three-fifths">
+                <div class="block mb-6">
+                    <h2 class="title is-4">{{ trans(key="experience", lang=lang) | title }}</h2>
+
+                    {% for exp in experience_list %}
+                        <div class="block my-2">
+                            <div class="columns is-mobile my-0">
+                                <div class="column py-0">
+                                    <span class="subtitle is-7 has-text-right">
+                                        {{ exp.organisation }}
+                                        {% if exp.department %}
+                                            ({{exp.department}})
+                                        {% else %}
+                                            {% if lang == "de" %}
+                                                ({{ exp.location.de }})
+                                            {% else %}
+                                                ({{ exp.location.en }})
+                                            {% endif %}
+                                        {% endif %}
+                                    </span>
+                                </div>
+                                <div class="column py-0 is-narrow">
+                                    {% if exp.start_date | date(format="%Y") == exp.end_date | date(format="%Y") %}
+                                        <span class="subtitle has-text-weight-medium is-6">{{ exp.start_date | date(format="%Y") }}</span>
+                                    {% else %}
+                                        <span class="subtitle has-text-weight-medium is-6">
+                                            {{ exp.start_date | date(format="%Y") }} &ndash; {{ exp.end_date | date(format="%Y") }}
+                                        </span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <h3 class="title is-5 mb-1">
+                                {% if lang == "de" %}
+                                    {{ exp.title.de }}
+                                {% else %}
+                                    {{ exp.title.en }}
+                                {% endif %}
+                            </h3>
+                            <div class="tags mb-0">
+                                {% if exp.award %}
+                                    <span class="tags has-addons mb-0 mr-2">
+                                        <span class="tag is-static button is-small is-danger is-light is-outlined mb-1">
+                                            {{ trans(key="award", lang=lang) | title }}
+                                        </span>
+                                        <span class="tag is-static button is-small is-danger is-outlined is-family-code mb-1">
+                                            {% if lang == "de" %}
+                                                {{ exp.award.de }}
+                                            {% else %}
+                                                {{ exp.award.en }}
+                                            {% endif %}
+                                        </span>
+                                    </span>
+                                {% endif %}
+                                {% for keyword in exp.keywords %}
+                                    <span class="tag is-static button is-small is-outlined is-family-code mb-1">
+                                        {{ keyword }}
+                                    </span>
+                                {% endfor %}
+                            </div>
+                            <p>
+                                {% if lang == "de" %}
+                                    {{ exp.description.de }}
+                                {% else %}
+                                    {{ exp.description.en }}
+                                {% endif %}
+                            </p>
+                            <hr class="my-3">
+                        </div>
+                    {% endfor %}
+
+                    <p class="content is-italic">
+                        {{ trans(key="references", lang=lang) }}
+                    </p>
+                </div>
+
+                <!-- Thesis -->
+                <div class="block mb-6">
+                    <h2 class="title is-4 mb-2">{{ trans(key="thesis", lang=lang)| title }}</h2>
+                    <p>{{ thesis.department }}</p>
+                    <h3 class="title is-5 mb-1">{{ thesis.title }}</h3>
+
+                    <div class="tags mb-1">
+                        <span class="tags has-addons mb-0 mr-2">
+                            <span class="tag is-static button is-small is-danger is-light is-outlined mb-1">
+                                {{ trans(key="grade", lang=lang) | title}}
+                            </span>
+                            <span class="tag is-static button is-small is-danger is-outlined is-family-code mb-1">
+                                {{ thesis.grade }}
+                            </span>
+                        </span>
+                        {% for keyword in thesis.keywords %}
+                            <span class="tag is-static button is-small is-outlined is-family-code mb-1">{{ keyword }}</span>
+                        {% endfor %}
+                    </div>
+                    <p class="content">
+                        {% if lang=='de' %}
+                            {{ thesis.summary.de }}
+                        {% else %}
+                            {{ thesis.summary.en }}
+                        {% endif %}
+                    </p>
+
+                    <span class="has-text-weight-bold">{{ trans(key="supervisors", lang=lang) | title }}:</span>
+                    {% for supervisor in thesis.supervisors %}
+                        {{ supervisor }}{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                    <hr>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <div class="block mb-6">
+                    <h2 class="title is-4">{{ trans(key="skills", lang=lang)| title }}</h2>
+
+                    <!-- Technical Skills -->
+                    <div class="block content mb-6">
+                        <!--<h3 class="subtitle">{{ trans(key="programming_languages", lang=lang)| title }}</h3> -->
+                        {% for technology in skills.programming %}
+                            <div class="columns is-mobile my-1">
+                                <div class="column py-0">
+                                    <span class="subtitle is-6 has-text-weight-medium">{{ technology.name }}</span>
+                                </div>
+                                <div class="column is-narrow py-0">
+                                    {% if technology.level=="advanced" %}
+                                        <p class="tag is-rounded is-danger is-light has-text-weight-bold">{{ technology.level }}</p>
+                                    {% else %}
+                                        <p class="tag is-rounded has-text-weight-bold">{{ technology.level }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="tags mb-0">
+                                {% for app in technology.applications %}
+                                    <span class="tag is-static button is-small is-outlined is-family-code mb-1">{{ app }}</span>
+                                {% endfor %}
+                            </div>
+                            <hr class="my-1">
+                        {% endfor %}
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="block content mb-6">
+                        <h4 class="subtitle my-0">{{ trans(key="soft_skills", lang=lang)| title }}</h3>
+                        {% for skill in skills.soft %}
+                            {% if lang=='de' %}
+                            <p class="is-6 is-italic has-text-weight-medium mb-1">{{ skill.name.de }}</p>
+                            <ul class="ml-4 mt-0">
+                                {% for context in skill.contexts.de %}
+                                    <li>{{ context }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                                <p class="is-6 is-italic has-text-weight-medium mb-1">{{ skill.name.en }}</p>
+                                <ul class="ml-4 mt-0">
+                                    {% for context in skill.contexts.en %}
+                                        <li>{{ context }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="block content mb-6">
+                        <h4 class="subtitle mb-2">{{ trans(key="languages", lang=lang)| title }}</h3>
+                        {% for language in skills.languages %}
+                            <div class="columns is-mobile my-0">
+                                <div class="column py-0">
+                                    {% if lang=="de" %}
+                                        <span class="subtitle has-text-weight-medium is-6">{{ language.name.de }}</span>
+                                    {% else %}
+                                        <span class="subtitle has-text-weight-medium is-6">{{ language.name.en }}</span>
+                                    {% endif %}
+                                </div>
+                                <div class="column is-narrow py-0">
+                                    {% if lang=="de" %}
+                                        <p class="tag is-rounded has-text-weight-bold">{{ language.level.de }}</p>
+                                    {% else %}
+                                        <p class="tag is-rounded has-text-weight-bold">{{ language.level.en }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <hr class="my-1">
+                        {% endfor %}
+                    </div>
+                </div>
+
+
+                 <!-- Education -->
+                <div class="block mb-6">
+                    <h2 class="title is-4 mb-3">{{ trans(key="education", lang=lang)| title }}</h2>
+                    {% for ed in education_list %}
+                        <div class="columns is-mobile my-0">
+                            <div class="column py-0">
+                                <span class="subtitle is-6 has-text-right">
+                                    {% if lang == "de" %}
+                                        {{ ed.location.de }}
+                                    {% else %}
+                                        {{ ed.location.en }}
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="column py-0">
+                                {% if ed.start_date and not ed.end_date %}
+                                    <p class="subtitle is-6 has-text-right">
+                                        {{ trans(key="since", lang=lang) }} {{ ed.start_date | date(format="%Y") }}
+                                    </p>
+                                {% elif ed.start_date | date(format="%Y") == ed.end_date | date(format="%Y") %}
+                                    <p class="subtitle is-6 has-text-right">
+                                        {{ ed.start_date | date(format="%Y") }}
+                                    </p>
+                                {% else %}
+                                    <p class="subtitle is-6 has-text-right">
+                                        {{ ed.start_date | date(format="%Y") }} &ndash; {{ ed.end_date | date(format="%Y") }}
+                                    </p>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <h3 class="title is-5 mb-1">{{ ed.title }}</h3>
+                        <p>{{ ed.organisation }}</p>
+                        <hr>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
