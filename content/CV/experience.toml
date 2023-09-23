@@ -1,14 +1,14 @@
 [[experience]]
-title.en = "Full Stack Web Developer and Sysadmin"
-title.de = "Full Stack Webentwickler und Sysadmin"
+title.en = "Full-Stack Web Developer and Sysadmin"
+title.de = "Full-Stack-Webentwickler und Sysadmin"
 description.en = """\
-    Developed a custom CMS back- and frontend as well as internal CRUD web applications. \
-    Operated multiple VM hosted on-premises services using Ansible \
-    including opservability metrics and alterting.\
+    Developed a custom CMS backend and frontend, as well as internal CRUD web applications. \
+    Operated several on-premises services on virtual machines using Ansible, \
+    including observability metrics and alerting.\
     """
 description.de = """\
     Entwicklung eines custom CMS Back- und Frontends sowie interne CRUD Webanwendungen. \
-    Betrieb mehrere On-Premises-Dienste auf virtuellen Maschienen mit Ansible, \
+    Betrieb mehrere On-Premises-Dienste auf virtuellen Maschinen mit Ansible, \
     inklusive Observability, Metriken und Alarmen.\
     """
 organisation = "TU Hamburg"
@@ -42,12 +42,12 @@ keywords = ["pandas", "matplotlib", "scikit-learn"]
 title.en = "Tutor: Computer Networks and Internet Security"
 title.de = "Tutor: Rechnernetze und Internetsicherheit"
 description.en = """\
-    Taught and developed weekly rasberry-pi based labs for up to 25 students. \
-    Topics included everything from the OSI model to network programming and security. \
+    Developed and taught weekly Rasberry Pi based labs for up to 25 students. \
+    Topics included the OSI model, network programming and IP, TLS and DNS security. \
     """
 description.de = """\
-    Leitung wöchentliche Übungen für bis zu 25 Studierende. Themen sind u.a. das OSI-Modell,
-    Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit
+    Leitung wöchentliche Laborübugen mit Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
+    Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit.
     """
 organisation = "TU Hamburg"
 department = "Institute for Communication Networks"
@@ -65,7 +65,7 @@ title.en = "Project: User Interface for a Medical Device"
 title.de = "Projekt: Benutzeroberfläche für ein Medizinprodukt"
 description.en = """\
     Development and deployment of a graphical user interface for a Raspberry Pi based \
-    open hardware ventilator created by a small team of volunteers. \
+    open hardware ventilator, created by a small team of volunteers. \
     Financed by the German Federal Ministry for Economic Cooperation and Development \
     for manufacturing in newly industrialized countries.\
     """
@@ -85,16 +85,16 @@ keywords = ["Raspberry Pi", "PyQt5", "Tkinter"]
 
 [[experience]]
 title.en = "Internship: Computer Vision based Quality Control"
-title.de = "Praktikum: Computervisionsbasierte Qualitätskontrolle"
+title.de = "Praktikum: Computer-Visions basierte Qualitätskontrolle"
 description.en = """\
-    Eearly development of a computer vision based industrial quality control system to identify defects in \
-    glossy, curved surface, metal parts. Created a capture setup and a dataset of 1000+ images. \
-    Developed a containerized jupyter notebook based prototye using edge detection, morphological operations for feature extraction. \
+    Early development of a computer vision based industrial quality control system to identify defects in \
+    glossy, curved surface, metal parts. Creation a capture setup and a dataset of 1000+ images. \
+    Developed a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction. \
     """
 description.de = """\
     Entwicklung eines computergestützten industriellen Qualitätssicherungssystems zur Identifizierung von Defekten in \
-    glänzenden, gekrümmten Metalloberflächen. Erstellte ein Aufnahmesetup und ein Dataset von 1000+ Bildern. \
-    Entwickelte einen containerisierten Prototypen auf Basis eines Jupyter-Notebooks mit Kantenfindung, \
+    glänzenden, gekrümmten Metalloberflächen. Erstellung eines Aufnahmesetup und eines Datensatz von 1000+ Bildern. \
+    Entwickelte einen containerisierten Prototypen auf Basis eines Jupyter-Notebooks mit Kantenfindung und \
     morphologischen Operationen zur Merkmalsextraktion.\
     """
 organisation = "Rongheng Information Technology Co."
