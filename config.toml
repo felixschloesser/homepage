@@ -69,7 +69,7 @@ description = "Ein Softwareentwickler derzeit in Hamburg lebt. In machen kontext
 
 
 [languages.de.translations]
-occupation = "Informatikstundent an der TU-Hamburg"
+occupation = "Informatikstudent an der TU-Hamburg"
 by = "von"
 source = "Quelle"
 source_code = "Quelltext"
