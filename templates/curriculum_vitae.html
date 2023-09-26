@@ -2,10 +2,10 @@
 
 {% block content %}
 
-{% set personal_data = load_data(path="content/CV/personal.toml") %}
-{% set experience_data = load_data(path="content/CV/experience.toml") %}
-{% set education_data = load_data(path="content/CV/education.toml") %}
-{% set skill_data = load_data(path="content/CV/skills.toml") %}
+{% set personal_data = load_data(path="content/cv/personal.toml") %}
+{% set experience_data = load_data(path="content/cv/experience.toml") %}
+{% set education_data = load_data(path="content/cv/education.toml") %}
+{% set skill_data = load_data(path="content/cv/skills.toml") %}
 
 {% set experience_list = experience_data.experience %}
 {% set thesis = education_data.thesis %}
