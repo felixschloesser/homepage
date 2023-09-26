@@ -5,6 +5,10 @@ build_search_index = false
 # Language Settings
 default_language = "en"
 
+title = "Felix Schlösser"
+description = "A Software Engineer currently living in Hamburg, Germany. Sometimes goes by TinTin."
+
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -19,12 +23,6 @@ external_links_no_referrer = true
 
 
 [translations]
-
-[languages.en]
-# Language specific settigns
-title = "Felix Schlösser"
-description = "A Software Engineer currently living in Hamburg, Germany. Sometimes goes by TinTin."
-
 
 [languages.en.translations]
 occupation = "CS Student at Hamburg University of Technology"
