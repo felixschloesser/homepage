@@ -7,7 +7,7 @@ applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
 [[programming]]
 name = "Rust"
 level = "intermediate"
-applications = [ "Systems", "GameDev" ]
+applications = [ "Systems", "GameDev", "embedded"]
 
 [[programming]]
 name = "Haskell"
