@@ -3,12 +3,12 @@ title.en = "Full-Stack Web Developer and Sysadmin"
 title.de = "Full-Stack-Webentwickler und Sysadmin"
 description.en = """\
     Developed a custom CMS backend and frontend, as well as internal CRUD web applications. \
-    Operated several on-premises services on virtual machines using Ansible, \
+    Operated several on-premises services on virtual machines using Ansible; \
     including observability metrics and alerting.\
     """
 description.de = """\
-    Entwicklung eines custom CMS Back- und Frontends sowie interne CRUD Webanwendungen. \
-    Betrieb mehrere On-Premises-Dienste auf virtuellen Maschinen mit Ansible, \
+    Entwicklung eines custom CMS Back- und Frontends sowie interner CRUD Webanwendungen. \
+    Betrieb mehrere On-Premises-Dienste auf virtuellen Maschinen mit Ansible; \
     inklusive Observability, Metriken und Alarmen.\
     """
 organisation = "TU Hamburg"
@@ -28,7 +28,7 @@ description.en = """\
     """
 description.de = """\
     Leitung wöchentliche Übungen für bis zu 20 Studierende. Themen umfassten alles von Algorithmen bis hin zu \
-    Datenanalyse, Visualisierung und maschinellem Lernen. \
+    Datenanalyse, visualisierung und maschinellem Lernen. \
     """
 organisation = "TU Hamburg"
 department = "Institute for Secure Cyberphysical Systems"
@@ -64,15 +64,15 @@ award.de = "Tutor Lehrpreis 2020"
 title.en = "Project: User Interface for a Medical Device"
 title.de = "Projekt: Benutzeroberfläche für ein Medizinprodukt"
 description.en = """\
-    Development and deployment of a graphical user interface for a Raspberry Pi based \
+    Development and deployment of a graphical user interface for a \
     open hardware ventilator, created by a small team of volunteers. \
-    Financed by the German Federal Ministry for Economic Cooperation and Development \
+    Financed by the German Federal Ministry for Economic Cooperation and Development and certified by TÜV-Süd \
     for manufacturing in newly industrialized countries.\
     """
 description.de = """\
-    Entwicklung einer grafischen Benutzeroberfläche für einen auf einem Raspberry Pi basierenden \
+    Entwicklung einer grafischen Benutzeroberfläche für ein\
     Open-Hardware-Beatmungsgerät, das von einem kleinen Team von Freiwilligen entwickelt wurde. \
-    Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung \
+    Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung und vom TÜV-Süd zertifiziert \
     für die Fertigung in Schwellenländern.\
     """
 organisation = "TM Rescue-Respiration UG"
@@ -80,21 +80,21 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2020-08-01"
 end_date = "2022-07-28"
-keywords = ["Raspberry Pi", "PyQt5", "Tkinter"]
+keywords = ["PyQt5", "Tkinter", "embedded"]
 
 
 [[experience]]
 title.en = "Internship: Computer Vision based Quality Control"
 title.de = "Praktikum: Computer-Visions basierte Qualitätskontrolle"
 description.en = """\
-    Early development of a computer vision based industrial quality control system to identify defects in \
+    Research and early development of a computer vision based industrial quality control system to identify defects in \
     glossy, curved surface, metal parts. Creation a capture setup and a dataset of 1000+ images. \
-    Developed a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction. \
+    Development of a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction. \
     """
 description.de = """\
-    Entwicklung eines computergestützten industriellen Qualitätssicherungssystems zur Identifizierung von Defekten in \
+    Erforschung und frühe Entwicklung eines computergestützten industriellen Qualitätssicherungssystems zur Identifizierung von Defekten in \
     glänzenden, gekrümmten Metalloberflächen. Erstellung eines Aufnahmesetup und eines Datensatz von 1000+ Bildern. \
-    Entwickelte einen containerisierten Prototypen auf Basis eines Jupyter-Notebooks mit Kantenfindung und \
+    Entwicklung eines containerisierten Prototypen auf Basis eines Jupyter-Notebooks mit Kantenfindung und \
     morphologischen Operationen zur Merkmalsextraktion.\
     """
 organisation = "Rongheng Information Technology Co."
