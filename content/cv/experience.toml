@@ -2,8 +2,8 @@
 title.en = "Full-Stack Web Developer and Sysadmin"
 title.de = "Full-Stack-Webentwickler und Sysadmin"
 description.en = """\
-    Developed a custom CMS backend and frontend, as well as internal CRUD web applications. \
-    Operated several on-premises services on virtual machines using Ansible; \
+    Developed and deployed a custom CMS backend and frontend, as well as internal CRUD web applications. \
+    Deployed an Operated several on-premises services on virtual machines using Ansible; \
     including observability metrics and alerting.\
     """
 description.de = """\
@@ -17,7 +17,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2019-10-01"
 end_date = "2023-03-31"
-keywords = ["Django", "Wagtail CMS", "postgresql", "nginx", "grafana", "prometheus" ]
+keywords = ["Django", "Wagtail CMS", "postgresql", "grafana", "prometheus", "ansible"]
 
 [[experience]]
 title.en = "Tutor: Python for Data Analysis"
@@ -46,7 +46,7 @@ description.en = """\
     Topics included the OSI model, network programming and IP, TLS and DNS security. \
     """
 description.de = """\
-    Leitung wöchentliche Laborübugen mit Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
+    Leitung wöchentliche Laborübugen auf Basis von Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
     Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit.
     """
 organisation = "TU Hamburg"
@@ -80,7 +80,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2020-08-01"
 end_date = "2022-07-28"
-keywords = ["PyQt5", "Tkinter", "embedded"]
+keywords = ["PyQt5", "Tkinter", "pytest", "V-Modell"]
 
 
 [[experience]]

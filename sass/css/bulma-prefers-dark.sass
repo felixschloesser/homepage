@@ -1,15 +1,90 @@
 @charset "utf-8"
-/*! Bulma Prefers Dark  | MIT License | github.com/jloh/bulma-prefers-dark */
+/*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 
 @import "bulma/utilities/_all.sass"
-@import "bulma-prefers-dark/utilities/_all.sass"
 
-$link-dark: darken($red, 10%)
+// Fonts
+@font-face
+  font-display: swap
+  font-family: 'Gochi Hand'
+  font-style: normal
+  font-weight: 400
+  src: local('Gochi Hand'), url('../../fonts/gochi-hand-v11-latin-500.woff2') format('woff2')
+
+@font-face
+  font-display: swap
+  font-family: 'EB Garamond'
+  font-style: normal
+  font-weight: 400
+  src: local('EB Garamond'), url('../fonts/eb-garamond-v27-latin-500.woff2') format('woff2')
+
+
+@font-face
+  font-display: swap
+  font-family: 'EB Garamond'
+  font-style: italic
+  font-weight: 400
+  src: local('EB Garamond'), url('../fonts/eb-garamond-v27-latin-500italic.woff2') format('woff2')
+
+
+@font-face
+  font-display: swap
+  font-family: 'EB Garamond'
+  font-style: normal
+  font-weight: 500
+  src: local('EB Garamond'), url('../fonts/eb-garamond-v27-latin-600.woff2') format('woff2')
+
+@font-face
+  font-display: swap
+  font-family: 'EB Garamond'
+  font-style: italic
+  font-weight: 500
+  src: local('EB Garamond'), url('../fonts/eb-garamond-v27-latin-600italic.woff2') format('woff2')
+
+@font-face
+  font-display: swap
+  font-family: 'EB Garamond'
+  font-style: normal
+  font-weight: 700
+  src: local('EB Garamond'), url('../fonts/eb-garamond-v27-latin-700.woff2') format('woff2')
+
+@font-face
+  font-display: swap
+  font-family: 'EB Garamond'
+  font-style: italic
+  font-weight: 700
+  src: local('EB Garamond'), url('../fonts/eb-garamond-v27-latin-700italic.woff2') format('woff2')
+
+// Change some of Bulmas Variables
+$family-secondary: 'EB Garamond', serif
+$link: darken($red, 15%)
+$hr-margin: 1rem 0
 $navbar-breakpoint: $tablet
 
-+prefers-scheme(dark)
-  $body-background-dark: #000000
-  @import "bulma-prefers-dark/base/_all.sass"
-  @import "bulma-prefers-dark/elements/_all.sass"
-  @import "bulma-prefers-dark/components/_all.sass"
-  @import "bulma-prefers-dark/layout/_all.sass"
+// Style the brand as desired
+.brand
+  font-family: 'Gochi Hand'
+  font-size: 2.5rem
+  translate: 0 0.1rem
+  line-height: 1.8rem
+
+
+// Media Querys
+@media (min-width: $desktop)
+  .navbar.is-spaced
+    padding: 1rem 0rem
+
+
+
+@media (max-width: $navbar-breakpoint)
+    .brand
+      font-size: 2rem
+
+@import "bulma/helpers/_all.sass"
+@import "bulma/base/_all.sass"
+@import "bulma/elements/_all.sass"
+@import "bulma/form/_all.sass"
+@import "bulma/components/_all.sass"
+@import "bulma/grid/_all.sass"
+@import "bulma/layout/_all.sass"
+
