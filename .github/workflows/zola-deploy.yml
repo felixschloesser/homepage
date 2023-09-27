@@ -19,15 +19,15 @@ jobs:
 
     # Debugging: List Directories in Workspace
     - name: Debug - List Directories in Workspace
-      run: ls -al /github/workspace/
+      run: ls -al /home/runner/work/homepage
 
     # Debugging: List Content in CV Directory
     - name: Debug - List Content in CV Directory
-      run: ls -al /github/workspace/content/cv/
+      run: ls -al /home/runner/work/homepage/content/cv/
 
     # Debugging: List Content in CV Markdown File
     - name: Debug - List Content in CV Markdown File
-      run: cat /github/workspace/content/CV/_index.md
+      run: cat /home/runner/work/homepage/content/CV/_index.md
 
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.17.1
