@@ -23,11 +23,11 @@ jobs:
 
     # Debugging: List Content in CV Directory
     - name: Debug - List Content in CV Directory
-      run: ls -al /home/runner/work/homepage/content/cv/
+      run: ls -al /home/runner/work/homepage/homepage/content/cv/
 
     # Debugging: List Content in CV Markdown File
     - name: Debug - List Content in CV Markdown File
-      run: cat /home/runner/work/homepage/content/CV/_index.md
+      run: cat /home/runner/work/homepage/homepage/content/CV/_index.md
 
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.17.1
