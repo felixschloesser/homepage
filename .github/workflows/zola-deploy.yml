@@ -1,9 +1,9 @@
 name: Zola on GitHub Pages
 
 on:
- push:
-  branches:
-   - dev
+  push:
+    branches:
+      - dev
 
 jobs:
   build:
@@ -12,6 +12,23 @@ jobs:
     steps:
     - name: Checkout dev
       uses: actions/checkout@v3.0.0
+
+    # Debugging: Print Environment Variables
+    - name: Debug - Print Environment Variables
+      run: env
+
+    # Debugging: List Directories in Workspace
+    - name: Debug - List Directories in Workspace
+      run: ls -al /github/workspace/
+
+    # Debugging: List Content in CV Directory
+    - name: Debug - List Content in CV Directory
+      run: ls -al /github/workspace/content/cv/
+
+    # Debugging: List Content in CV Markdown File
+    - name: Debug - List Content in CV Markdown File
+      run: cat /github/workspace/content/CV/_index.md
+
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.17.1
       env:
