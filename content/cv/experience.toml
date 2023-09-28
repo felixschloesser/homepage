@@ -27,7 +27,7 @@ description.en = """\
     data analysis, visualization and machine learning. \
     """
 description.de = """\
-    Leitung wöchentliche Übungen für bis zu 20 Studierende. Themen umfassten alles von Algorithmen bis hin zu \
+    Leitung wöchentlicher Übungen für bis zu 20 Studierende. Themen umfassten alles von Algorithmen bis hin zu \
     Datenanalyse, visualisierung und maschinellem Lernen. \
     """
 organisation = "TU Hamburg"
@@ -46,7 +46,7 @@ description.en = """\
     Topics included the OSI model, network programming and IP, TLS and DNS security. \
     """
 description.de = """\
-    Leitung wöchentliche Laborübugen auf Basis von Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
+    Leitung wöchentlicher Laborübugen auf Basis von Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
     Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit.
     """
 organisation = "TU Hamburg"
