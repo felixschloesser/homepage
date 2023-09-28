@@ -6,7 +6,7 @@ applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
 [[technical]]
 name = "Linux Administration"
 level = "intermediate"
-applications = [ "DevOps", "GitLab", "Ansible", "grafana"]
+applications = [ "Ansible", "vSphere", "GitLab", "grafana"]
 
 [[technical]]
 name = "DB Administration"
@@ -17,7 +17,7 @@ applications = [ "PostgreSQL", "MySQL", "Redis"]
 [[technical]]
 name = "Rust"
 level = "intermediate"
-applications = [ "Games", "Systems"]
+applications = [ "Personal Projects" ]
 
 
 [[technical]]

@@ -17,7 +17,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2019-10-01"
 end_date = "2023-03-31"
-keywords = ["Django", "Wagtail CMS", "postgresql"]
+keywords = ["Django", "Wagtail CMS", "Pretix Ticketing", "Bookstack Wiki"]
 
 [[experience]]
 title.en = "Tutor: Python for Data Analysis"
@@ -55,14 +55,14 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2018-10-01"
 end_date = "2023-01-31"
-keywords = ["Raspberry Pi", "wireshark", "nmap"]
+keywords = ["Raspberry Pi", "wireshark", "netem"]
 award.en = "Best Tutor 2020"
 award.de = "Tutor Lehrpreis 2020"
 
 
 [[experience]]
-title.en = "Project: User Interface for a Medical Device"
-title.de = "Projekt: Benutzeroberfläche für ein Medizinprodukt"
+title.en = "User Interface Developer for a Medical Device"
+title.de = "Benutzeroberflächenentwickler für ein Medizinprodukt"
 description.en = """\
     Development and deployment of a graphical user interface for a \
     open hardware ventilator, created by a small team of volunteers. \
@@ -80,12 +80,12 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2020-08-01"
 end_date = "2022-07-28"
-keywords = ["V-Modell", "PyQt5", "pytest"]
+keywords = ["V-Modell", "Model-View-Presenter", "PyQt5", "pytest"]
 
 
 [[experience]]
-title.en = "Internship: Computer Vision based Quality Control"
-title.de = "Praktikum: Computer-Visions basierte Qualitätskontrolle"
+title.en = "Intern: Computer Vision based Quality Control"
+title.de = "Praktikant: Computer-Visions basierte Qualitätskontrolle"
 description.en = """\
     Research and early development of a computer vision based industrial quality control system to identify defects in \
     glossy, curved surface, metal parts. Creation a capture setup and a dataset of 1000+ images. \
@@ -102,7 +102,7 @@ location.en = "Shanghai, China"
 location.de = "Shanghai, China"
 start_date = "2019-07-01"
 end_date = "2019-09-30"
-keywords = ["docker", "jupyter", "scikit-image"]
+keywords = ["SCRUM", "docker", "jupyter", "scikit-image"]
 
 
 
