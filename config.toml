@@ -49,7 +49,7 @@ award = "award"
 
 linkedin_cta = "Contact me on LinkedIn"
 email_cta = "Send Email"
-download_cv_cta = "Download CV"
+download_cv_pdf_cta = "Download PDF"
 email_subject = "Job inquiry"
 
 
@@ -91,7 +91,7 @@ award = "Auszeichnung"
 
 linkedin_cta = "Auf LinkedIn kontaktieren"
 email_cta = "E-Mail senden"
-download_cv_cta = "Lebenslauf herunterladen"
+download_cv_pdf_cta = "PDF herunterladen"
 email_subject = "Jobanfrage"
 
 

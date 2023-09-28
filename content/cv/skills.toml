@@ -7,12 +7,12 @@ applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
 [[programming]]
 name = "Rust"
 level = "intermediate"
-applications = [ "Personal Projects", "GameDev", "embedded"]
+applications = [ "Personal Projects - Games", "Systems"]
 
 [[programming]]
 name = "Haskell"
 level = "basic"
-applications = [ "Universty Projects" ]
+applications = [ "Universty Project - compiler construction",  ]
 
 [[programming]]
 name = "C"
@@ -30,12 +30,12 @@ applications = [ "Web Frontend" ]
 name.en = "Teamwork & Communication"
 name.de = "Teamarbeit & Kommunikation"
 contexts.en = [
-  "First chair of the board of student representatives",
+  "First chair of the board of student representatives (AStA)",
   "Scout leader",
   "NGO volunteering",
 ]
 contexts.de = [
-  "Erster Vorsitzender des Studierendenausschusses",
+  "Erster Vorsitzender des allgemeinen Studierendenausschusses",
   "Pfadfinderleiter",
   "Freiwilligenarbeit bei NGOs"
 ]

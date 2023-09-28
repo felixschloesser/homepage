@@ -26,14 +26,14 @@
                     </div>
                     <div class="column is-narrow py-1">
                         <div class="buttons">
-                            {# <a class="button is-outlined is-right is-small is-dark">
+                            <a class="button is-outlined is-right is-small is-dark" href="/documents/CV_Felix_Schloesser_EN.pdf" target="_blank">
                                 <span class="icon">
                                     <i class="fas fa-file-download"></i>
                                 </span>
                                 <span>
-                                    {{ trans(key="download_cv_cta", lang=lang) }}
+                                    {{ trans(key="download_cv_pdf_cta", lang=lang) }}
                                 </span>
-                            </a> #}
+                            </a>
                             <a class="button is-outlined is-right is-small is-link is-danger" href="mailto:{{ personal_data.job.email }}?subject={{ trans(key='email_subject', lang=lang) }}">
                                 <span class="icon">
                                     <i class="fas fa-envelope"></i>
