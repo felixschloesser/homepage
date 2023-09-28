@@ -1,32 +1,32 @@
-[[skills]]
+[[technical]]
 name = "Python"
 level = "advanced"
 applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
 
-[[skills]]
+[[technical]]
 name = "Linux Administration"
 level = "intermediate"
 applications = [ "DevOps", "GitLab", "Ansible", "On-Premise", "prometheus", "grafana", "nginx", "Docker"]
 
-[[skills]]
+[[technical]]
 name = "Databases"
 level = "intermediate"
 applications = [ "PostgreSQL", "MySQL", "Redis"]
 
 
-[[skills]]
+[[technical]]
 name = "Rust"
 level = "intermediate"
 applications = [ "Games", "Systems"]
 
 
-[[skills]]
+[[technical]]
 name = "Haskell"
 level = "basic"
 applications = [ "University Projects"]
 
 
-[[skills]]
+[[technical]]
 name = "JavaScript"
 level = "basic"
 applications = [ "Web Frontend" ]

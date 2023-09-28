@@ -175,22 +175,21 @@
 
                     <!-- Technical Skills -->
                     <div class="block content mb-6">
-                        <!--<h3 class="subtitle">{{ trans(key="programming_languages", lang=lang)| title }}</h3> -->
-                        {% for technology in skills.programming %}
+                        {% for skill in skills.technical %}
                             <div class="columns is-mobile my-1">
                                 <div class="column py-0">
-                                    <span class="subtitle is-6 has-text-weight-medium">{{ technology.name }}</span>
+                                    <span class="subtitle is-6 has-text-weight-medium">{{ skill.name }}</span>
                                 </div>
                                 <div class="column is-narrow py-0">
                                     {% if technology.level=="advanced" %}
-                                        <p class="tag is-rounded is-danger is-light has-text-weight-bold">{{ technology.level }}</p>
+                                        <p class="tag is-rounded is-danger is-light has-text-weight-bold">{{ skill.level }}</p>
                                     {% else %}
-                                        <p class="tag is-rounded has-text-weight-bold">{{ technology.level }}</p>
+                                        <p class="tag is-rounded has-text-weight-bold">{{ skill.level }}</p>
                                     {% endif %}
                                 </div>
                             </div>
                             <div class="tags mb-0">
-                                {% for app in technology.applications %}
+                                {% for app in skill.applications %}
                                     <span class="tag is-static button is-small is-outlined is-family-code mb-1">{{ app }}</span>
                                 {% endfor %}
                             </div>
