@@ -9,20 +9,20 @@ summary.en = """\
     when applied to distributed software systems.\
     """
 summary.de = """\
-    Die Arbeit untersucht die Privatsphäegefahren in Exposure Notification Protokollen. \
+    Die Arbeit untersucht die Privatsphäregefahren in Exposure Notification Protokollen (z.B. Corona-Warn-App). \
     Dazu wurde eine Literaturanalyse durchgeführt, um eine Datenbank von bekannten \
     Privatsphäregefahren zu erstellen. \
-    Anschließend wurde ein Datenflussmodell erstellt und \
-    die LINDDUN-Bedrohungsbaum-Methode verwendet, um Privatsphäregefahren zu ermitteln. \
+    Anschließend wurde ein Datenflussmodell erstellt, um mit Hilfe von \
+    LINDDUN-Bedrohungsbäumen Privatsphäregefahren zu ermitteln. \
     Dies ermöglichte die Identifizierung neuer Privatsphäregefahren und \
     lieferte neue Erkenntnisse über die Wirksamkeit der LINDDUN- und DFD-basierten \
     Bedrohungsmodellierung bei der Anwendung auf verteilte Softwaresysteme.\
     """
 organisation = "Technische Universität Hamburg"
 department = "Insitute for Software Security"
-supervisors = ["Dr. Nicolás Díaz Ferreyra", "Prof. Dr. Riccardo Scandariato"]
+supervisors = ["Prof. Dr. Riccardo Scandariato", "Dr. Nicolás Díaz Ferreyra"]
 grade = "2.0"
-keywords = ["Privacy", "Threat Modeling", "Bluetooth LE", "GAEN", "DP-3T"]
+keywords = ["Threat Modeling", "Bluetooth LE", "DP-3T"]
 
 
 [[education]]

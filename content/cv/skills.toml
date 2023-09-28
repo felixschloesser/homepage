@@ -6,10 +6,10 @@ applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
 [[technical]]
 name = "Linux Administration"
 level = "intermediate"
-applications = [ "DevOps", "GitLab", "Ansible", "On-Premise", "prometheus", "grafana", "nginx", "Docker"]
+applications = [ "DevOps", "GitLab", "Ansible", "grafana"]
 
 [[technical]]
-name = "Databases"
+name = "DB Administration"
 level = "intermediate"
 applications = [ "PostgreSQL", "MySQL", "Redis"]
 

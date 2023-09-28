@@ -17,7 +17,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2019-10-01"
 end_date = "2023-03-31"
-keywords = ["Django", "Wagtail CMS", "postgresql", "grafana", "prometheus", "ansible"]
+keywords = ["Django", "Wagtail CMS", "postgresql"]
 
 [[experience]]
 title.en = "Tutor: Python for Data Analysis"
@@ -80,7 +80,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2020-08-01"
 end_date = "2022-07-28"
-keywords = ["PyQt5", "Tkinter", "pytest", "V-Modell"]
+keywords = ["V-Modell", "PyQt5", "pytest"]
 
 
 [[experience]]
@@ -102,7 +102,7 @@ location.en = "Shanghai, China"
 location.de = "Shanghai, China"
 start_date = "2019-07-01"
 end_date = "2019-09-30"
-keywords = ["scikit-image", "Pillow", "jupyter", "docker"]
+keywords = ["docker", "jupyter", "scikit-image"]
 
 
 
