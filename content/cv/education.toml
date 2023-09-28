@@ -9,8 +9,8 @@ summary.en = """\
     when applied to distributed software systems.\
     """
 summary.de = """\
-    Die Arbeit untersucht die Privatsphäregefahren in Exposure Notification Protokollen (z.B. Corona-Warn-App). \
-    Dazu wurde eine Literaturanalyse durchgeführt, um eine Datenbank von bekannten \
+    Die Arbeit hat Privatsphäregefahren in Exposure Notification Protokollen (z.B. Corona-Warn-App) untersucht. \
+    Dazu wurde eine Literaturanalyse durchgeführt, um einen Datensatz von bekannten \
     Privatsphäregefahren zu erstellen. \
     Anschließend wurde ein Datenflussmodell erstellt, um mit Hilfe von \
     LINDDUN-Bedrohungsbäumen Privatsphäregefahren zu ermitteln. \
