@@ -3,7 +3,7 @@ title.en = "Full-Stack Web Developer and Sysadmin"
 title.de = "Full-Stack-Webentwickler und Sysadmin"
 description.en = """\
     Developed and deployed a custom CMS backend and frontend, as well as internal CRUD web applications. \
-    Deployed an Operated several on-premises services on virtual machines using Ansible; \
+    Deployed and Operated several on-premises services on virtual machines using Ansible; \
     including observability metrics and alerting.\
     """
 description.de = """\
