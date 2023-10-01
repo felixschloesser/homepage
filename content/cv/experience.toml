@@ -28,7 +28,7 @@ description.en = """\
     """
 description.de = """\
     Leitung wöchentlicher Übungen für bis zu 20 Studierende. Themen umfassten alles von Algorithmen bis hin zu \
-    Datenanalyse, visualisierung und maschinellem Lernen. \
+    Datenanalyse, Visualisierung und maschinellem Lernen. \
     """
 organisation = "TU Hamburg"
 department = "Institute for Secure Cyberphysical Systems"
@@ -64,13 +64,13 @@ award.de = "Tutor Lehrpreis 2020"
 title.en = "User Interface Developer for a Medical Device"
 title.de = "Benutzeroberflächenentwickler für ein Medizinprodukt"
 description.en = """\
-    Development and deployment of a graphical user interface for a \
+    Designed, developed and deployed a graphical user interface for an \
     open hardware ventilator, created by a small team of volunteers. \
     Financed by the German Federal Ministry for Economic Cooperation and Development and certified by TÜV-Süd \
     for manufacturing in newly industrialized countries.\
     """
 description.de = """\
-    Entwicklung einer grafischen Benutzeroberfläche für ein \
+    Design und Entwicklung einer grafischen Benutzeroberfläche für ein \
     Open-Hardware-Beatmungsgerät, das von einem kleinen Team von Freiwilligen entwickelt wurde. \
     Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung und vom TÜV-Süd zertifiziert \
     für die Fertigung in Schwellenländern.\
@@ -87,9 +87,9 @@ keywords = ["V-Modell", "Model-View-Presenter", "PyQt5", "pytest"]
 title.en = "Intern: Computer Vision based Quality Control"
 title.de = "Praktikant: Computer-Visions basierte Qualitätskontrolle"
 description.en = """\
-    Research and early development of a computer vision based industrial quality control system to identify defects in \
-    glossy, curved surface, metal parts. Creation a capture setup and a dataset of 1000+ images. \
-    Development of a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction. \
+    Researched and developed a computer vision based industrial quality control system to identify defects in \
+    glossy, curved surface, metal parts. Created a capture setup and a dataset of 1000+ images. \
+    Developed a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction. \
     """
 description.de = """\
     Erforschung und frühe Entwicklung eines computergestützten industriellen Qualitätssicherungssystems zur Identifizierung von Defekten in \
