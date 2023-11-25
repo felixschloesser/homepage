@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: dev
+  site_domain: felixschloesser.de
+  repo: felixschloesser/homepage
+  cms_label_prefix: decap-cms/
+
+#publish_mode: editorial_workflow
+media_folder: "static/images"
+
+collections:
+  - name: "cv"
+    label: "CV"
+    files:
+      - name: "education"
+        label: "Education"
+        file: "content/cv/education.toml"
+        fields:
+          - {label: "School Name", name: "school", widget: "string"}
+          - {label: "Degree", name: "degree", widget: "string"}
+          - {label: "Start Date", name: "start_date", widget: "date"}
+          - {label: "End Date", name: "end_date", widget: "date"}
+          # Add more fields as needed
+
+
+  - name: "photography"
+    label: "Photography"
+    folder: "content/photography"
+    media_folder: "." # Relative to the collection's folder
+    create: true # Allows creation of new items
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Images", name: "images", widget: "image", allow_multiple: true}
+
+
+  - name: "pages"
+    label: "Other Pages"
+    files:
+      - name: "imprint"
+        label: "Imprint"
+        file: "content/_imprint.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - name: "data-protection"
+        label: "Data Protection"
+        file: "content/_data-protection.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
