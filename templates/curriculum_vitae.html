@@ -71,9 +71,9 @@
                                             ({{exp.department}})
                                         {% else %}
                                             {% if lang == "de" %}
-                                                ({{ exp.location.de }})
+                                                ({{ exp.location_de }})
                                             {% else %}
-                                                ({{ exp.location.en }})
+                                                ({{ exp.location_en }})
                                             {% endif %}
                                         {% endif %}
                                     </span>
@@ -90,9 +90,9 @@
                             </div>
                             <h3 class="title is-5 mb-1">
                                 {% if lang == "de" %}
-                                    {{ exp.title.de }}
+                                    {{ exp.title_de }}
                                 {% else %}
-                                    {{ exp.title.en }}
+                                    {{ exp.title_en }}
                                 {% endif %}
                             </h3>
                             <div class="tags mb-0">
@@ -103,9 +103,9 @@
                                         </span>
                                         <span class="tag is-static button is-small is-danger is-outlined is-family-code mb-1">
                                             {% if lang == "de" %}
-                                                {{ exp.award.de }}
+                                                {{ exp.award_de }}
                                             {% else %}
-                                                {{ exp.award.en }}
+                                                {{ exp.award_en }}
                                             {% endif %}
                                         </span>
                                     </span>
@@ -118,9 +118,9 @@
                             </div>
                             <p>
                                 {% if lang == "de" %}
-                                    {{ exp.description.de }}
+                                    {{ exp.description_de }}
                                 {% else %}
-                                    {{ exp.description.en }}
+                                    {{ exp.description_en }}
                                 {% endif %}
                             </p>
                             <hr class="my-3">
@@ -153,9 +153,9 @@
                     </div>
                     <p class="content">
                         {% if lang=='de' %}
-                            {{ thesis.summary.de }}
+                            {{ thesis.summary_de }}
                         {% else %}
-                            {{ thesis.summary.en }}
+                            {{ thesis.summary_en }}
                         {% endif %}
                     </p>
 
@@ -202,16 +202,16 @@
                         <h4 class="subtitle my-0">{{ trans(key="soft_skills", lang=lang)| title }}</h3>
                         {% for skill in skills.soft %}
                             {% if lang=='de' %}
-                            <p class="is-6 is-italic has-text-weight-medium mb-1">{{ skill.name.de }}</p>
+                            <p class="is-6 is-italic has-text-weight-medium mb-1">{{ skill.name_de }}</p>
                             <ul class="ml-4 mt-0">
-                                {% for context in skill.contexts.de %}
+                                {% for context in skill.contexts_de %}
                                     <li>{{ context }}</li>
                                 {% endfor %}
                             </ul>
                             {% else %}
-                                <p class="is-6 is-italic has-text-weight-medium mb-1">{{ skill.name.en }}</p>
+                                <p class="is-6 is-italic has-text-weight-medium mb-1">{{ skill.name_en }}</p>
                                 <ul class="ml-4 mt-0">
-                                    {% for context in skill.contexts.en %}
+                                    {% for context in skill.contexts_en %}
                                         <li>{{ context }}</li>
                                     {% endfor %}
                                 </ul>
@@ -226,16 +226,16 @@
                             <div class="columns is-mobile my-0">
                                 <div class="column py-0">
                                     {% if lang=="de" %}
-                                        <span class="subtitle has-text-weight-medium is-6">{{ language.name.de }}</span>
+                                        <span class="subtitle has-text-weight-medium is-6">{{ language.name_de }}</span>
                                     {% else %}
-                                        <span class="subtitle has-text-weight-medium is-6">{{ language.name.en }}</span>
+                                        <span class="subtitle has-text-weight-medium is-6">{{ language.name_en }}</span>
                                     {% endif %}
                                 </div>
                                 <div class="column is-narrow py-0">
                                     {% if lang=="de" %}
-                                        <p class="tag is-rounded has-text-weight-bold">{{ language.level.de }}</p>
+                                        <p class="tag is-rounded has-text-weight-bold">{{ language.level_de }}</p>
                                     {% else %}
-                                        <p class="tag is-rounded has-text-weight-bold">{{ language.level.en }}</p>
+                                        <p class="tag is-rounded has-text-weight-bold">{{ language.level_en }}</p>
                                     {% endif %}
                                 </div>
                             </div>
@@ -253,9 +253,9 @@
                             <div class="column py-0">
                                 <span class="subtitle is-6 has-text-right">
                                     {% if lang == "de" %}
-                                        {{ ed.location.de }}
+                                        {{ ed.location_de }}
                                     {% else %}
-                                        {{ ed.location.en }}
+                                        {{ ed.location_en }}
                                     {% endif %}
                                 </span>
                             </div>

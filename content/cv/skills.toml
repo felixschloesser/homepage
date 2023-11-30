@@ -34,14 +34,14 @@ applications = [ "Web Frontend" ]
 
 
 [[soft]]
-name.en = "Teamwork & Communication"
-name.de = "Teamarbeit & Kommunikation"
-contexts.en = [
+name_en = "Teamwork & Communication"
+name_de = "Teamarbeit & Kommunikation"
+contexts_en = [
   "First chair of the board of student representatives (AStA)",
   "Scout leader",
   "NGO volunteering",
 ]
-contexts.de = [
+contexts_de = [
   "Erster Vorsitzender des allgemeinen Studierendenausschusses",
   "Pfadfinderleiter",
   "Freiwilligenarbeit bei NGOs"
@@ -49,28 +49,28 @@ contexts.de = [
 
 
 [[languages]]
-name.en = "German"
-name.de = "Deutsch"
-level.en = "Native"
-level.de = "Muttersprache"
+name_en = "German"
+name_de = "Deutsch"
+level_en = "Native"
+level_de = "Muttersprache"
 
 [[languages]]
-name.en = "English"
-name.de = "Englisch"
-level.en = "C2"
-level.de = "C2"
+name_en = "English"
+name_de = "Englisch"
+level_en = "C2"
+level_de = "C2"
 
 [[languages]]
-name.en = "French"
-name.de = "Französisch"
-level.en = "C1"
-level.de = "C1"
+name_en = "French"
+name_de = "Französisch"
+level_en = "C1"
+level_de = "C1"
 
 
 [[languages]]
-name.en = "Japanese"
-name.de = "Japanisch"
-level.en = "JLPT N4"
-level.de = "JLPT N4"
+name_en = "Japanese"
+name_de = "Japanisch"
+level_en = "JLPT N4"
+level_de = "JLPT N4"
 
 

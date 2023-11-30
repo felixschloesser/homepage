@@ -1,6 +1,6 @@
 [thesis]
 title = "Privacy Threats in Exposure Notification Protocols: A LINDDUN-driven Approach"
-summary.en = """\
+summary_en = """\
     Reviewed existing literature to extract a dataset of known privacy threats; \
     created a Data Flow model and \
     used the LINDDUN threat trees to elecit privacy threats. \
@@ -8,7 +8,7 @@ summary.en = """\
     new insights into the effectiveness of the LINDDUN and DFD based threat modeling \
     when applied to distributed software systems.\
     """
-summary.de = """\
+summary_de = """\
     Die Arbeit hat Privatsphäregefahren in Exposure Notification Protokollen (z.B. Corona-Warn-App) untersucht. \
     Dazu wurde eine Literaturanalyse durchgeführt, um einen Datensatz von bekannten \
     Privatsphäregefahren zu erstellen. \
@@ -28,30 +28,30 @@ keywords = ["Threat Modeling", "Bluetooth LE", "DP-3T"]
 [[education]]
 title = "Computer Science (B.Sc.)"
 organisation = "Technische Universität Hamburg"
-location.en = "Germany"
-location.de = "Deutschland"
+location_en = "Germany"
+location_de = "Deutschland"
 start_date = "2016-10-01"
 
 [[education]]
 title = "Erasumus+"
 organisation = "Université de Technologie de Compiègne"
-location.en = "France"
-location.de = "Frankreich"
+location_en = "France"
+location_de = "Frankreich"
 start_date = "2022-02-01"
 end_date = "2022-08-01"
 
 [[education]]
 title = "Asian Languages and Cultures Certificate"
 organisation = "ISI Language School"
-location.en = "Tokyo, Japan"
-location.de = "Tokio, Japan"
+location_en = "Tokyo, Japan"
+location_de = "Tokio, Japan"
 start_date = "2015-09-01"
 end_date = "2016-07-01"
 
 [[education]]
 title = "Abitur"
 organisation = "Pater Damian Sekundarschule"
-location.en = "Eupen, Belgium"
-location.de = "Eupen, Belgien"
+location_en = "Eupen, Belgium"
+location_de = "Eupen, Belgien"
 start_date = "2009-09-01"
 end_date = "2015-06-30"
