@@ -3,10 +3,10 @@ last_name = "Schlösser"
 
 [address]
 street_name = "Wolfgangsweg"
-street_number = "14"
+house_number = "14"
 post_code = "20459"
 city = "Hamburg"
 
 [job]
-role = "Junior Software Engineer / DevOps"
+desired_role = "Junior Software Engineer / DevOps"
 email = "job@felixschloesser.de"

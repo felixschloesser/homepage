@@ -1,6 +1,6 @@
 +++
 title = "Data Protection"
-weight=2
+weight = 2
 +++
 
 This website does not collect, store or process personal data. This website does not use cookies.

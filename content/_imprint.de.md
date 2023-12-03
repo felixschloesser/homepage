@@ -1,8 +1,7 @@
 +++
 title = "Impressum"
-weight=3
+weight = 3
 +++
-
 Allgemeine Informationspflichten nach § 5 Telemediengesetz (TMG):
 
 ### Name und Anschrift

@@ -21,21 +21,21 @@ collections:
     label: "Startseite"
     files:
       - name: "en"
-        label: "Landing Page [EN]"
+        label: "Startseite [EN]"
         file: "content/_index.md"
         preview_path: "/"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - label: "Image"
+          - {label: "Titel", name: "title", widget: "string"}
+          - label: "Bild"
             name: "extra"
             widget: "object"
             fields:
-              - {label: "Image", name: "image_path", widget: "image"}
+              - {label: "Bild", name: "image_path", widget: "image"}
               - {label: "Alt-Text", name: "image_alt", widget: "string", required: false}
-              - {label: "Title", name: "image_title", widget: "string"}
-              - {label: "Author", name: "image_author", widget: "string"}
-              - {label: "Source", name: "image_source", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+              - {label: "Titel", name: "image_title", widget: "string"}
+              - {label: "Autor", name: "image_author", widget: "string"}
+              - {label: "Quelle", name: "image_source", widget: "string"}
+          - {label: "Fließtext", name: "body", widget: "markdown"}
 
       - name: "de"
         label: "Startseite [DE]"
@@ -43,16 +43,17 @@ collections:
         preview_path: "/cv"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - label: "Image"
+          - label: "Bild"
             name: "extra"
             widget: "object"
             fields:
-              - {label: "Image", name: "image_path", widget: "image"}
+              - {label: "Bild", name: "image_path", widget: "image"}
               - {label: "Alt-Text", name: "image_alt", widget: "string"}
-              - {label: "Title", name: "image_title", widget: "string"}
-              - {label: "Author", name: "image_author", widget: "string"}
-              - {label: "Source", name: "image_source", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+              - {label: "Titel", name: "image_title", widget: "string"}
+              - {label: "Autor", name: "image_author", widget: "string"}
+              - {label: "Quelle", name: "image_source", widget: "string"}
+          - {label: "Fließtext", name: "body", widget: "markdown"}
+
 
   - name: "cv"
     label: "Lebenslauf"
@@ -91,37 +92,115 @@ collections:
         file: "content/cv/experience.toml"
         preview_path: "/cv/"
         fields:
-          - label: "Experience Entries"
+          - label: "Berufserfahrung"
             name: "experience"
             widget: "list"
             fields:
-              - {label: "Title [EN]", name: "title_en", widget: "string"}
-              - {label: "Title [DE]", name: "title_de", widget: "string"}
-              - {label: "Description [EN]", name: "description_en", widget: "text"}
-              - {label: "Description [DE]", name: "description_de", widget: "text"}
+              - {label: "Titel [EN]", name: "title_en", widget: "string"}
+              - {label: "Titel [DE]", name: "title_de", widget: "string"}
+              - {label: "Beschreibung [EN]", name: "description_en", widget: "text"}
+              - {label: "Beschreibung [DE]", name: "description_de", widget: "text"}
               - {label: "Organisation", name: "organisation", widget: "string"}
-              - {label: "Department", name: "department", widget: "string", required: false}
-              - {label: "Location [EN]", name: "location_en", widget: "string"}
-              - {label: "Location [DE]", name: "location_de", widget: "string"}
-              - {label: "Start Date", name: "start_date", widget: "date"}
-              - {label: "End Date", name: "end_date", widget: "date"}
-              - {label: "Keywords", name: "keywords", widget: "list"}
-              - {label: "Award [EN]", name: "award_en", widget: "string", required: false}
-              - {label: "Award [DE]", name: "award_de", widget: "string", required: false}
-  - name: "photography"
-    label: "Photography"
-    preview_path: "/photography/{{slug}}"
-    folder: "content/photography"
-    media_folder: "." # Relative to the collection's folder
-    create: true # Allows creation of new items
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "date"}
-      - {label: "Images", name: "images", widget: "image", allow_multiple: true}
+              - {label: "Abteilung", name: "department", widget: "string", required: false}
+              - {label: "Ort [EN]", name: "location_en", widget: "string"}
+              - {label: "Ort [DE]", name: "location_de", widget: "string"}
+              - {label: "Startdatum", name: "start_date", widget: "date"}
+              - {label: "Enddatum", name: "end_date", widget: "date"}
+              - {label: "Schlagwörter", name: "keywords", widget: "list"}
+              - {label: "Preise [EN]", name: "award_en", widget: "string", required: false}
+              - {label: "Preise [DE]", name: "award_de", widget: "string", required: false}
 
+      - name: "personal"
+        label: "Persönliches"
+        file: "content/cv/personal.toml"
+        preview_path: "/cv"
+        fields:
+          - {label: "Vorname", name: "first_name", widget: "string"}
+          - {label: "Nachname", name: "last_name", widget: "string"}
+          - label: "Adresse"
+            name: "address"
+            widget: "object"
+            fields:
+              - {label: "Straße", name: "street_name", widget: "string"}
+              - {label: "Hausnummer", name: "house_number", widget: "string"}
+              - {label: "Postleitzahl", name: "post_code", widget: "string"}
+              - {label: "Stadt", name: "city", widget: "string"}
+          - label: "Job"
+            name: "job"
+            widget: "object"
+            fields:
+              - {label: "Rolle", name: "role", widget: "string"}
+              - {label: "E-Mail", name: "email", widget: "string"}
+
+      - name: "skills"
+        label: "Fähigkeiten"
+        file: "content/cv/skills.toml"
+        preview_path: "/cv"
+        fields:
+          - label: "Technische Fähigkeiten"
+            name: "technical"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Niveau", name: "level", widget: "select", options: ["basic", "intermediate", "advanced"]}
+              - {label: "Anwendungen", name: "applications", widget: "list"}
+
+          - label: "Soft Skills"
+            name: "soft"
+            widget: "list"
+            fields:
+              - {label: "Name [EN]", name: "name_en", widget: "string"}
+              - {label: "Name [DE]", name: "name_de", widget: "string"}
+              - {label: "Kontexte [EN]", name: "contexts_en", widget: "list"}
+              - {label: "Kontexte [DE]", name: "contexts_de", widget: "list"}
+
+          - label: "Sprachen"
+            name: "languages"
+            widget: "list"
+            fields:
+              - {label: "Name [EN]", name: "name_en", widget: "string"}
+              - {label: "Name [DE]", name: "name_de", widget: "string"}
+              - {label: "Niveau [EN]", name: "level_en", widget: "string"}
+              - {label: "Niveau [DE]", name: "level_de", widget: "string"}
+
+  - name: "photography"
+    label: "Fotografie"
+    folder: "content/photography"
+    create: true  # Allows creation of new photography categories
+    slug: "{{slug}}"
+    fields:
+      - label: "Photography Category"
+        name: "category"
+        widget: "string"
+        hint: "This is a unique identifier for the category, like 'scotland'."
+
+      - label: "English Content"
+        name: "english_content"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Weight", name: "weight", widget: "number"}
+          - {label: "Description", name: "body", widget: "markdown"}
+
+      - label: "German Content"
+        name: "german_content"
+        widget: "object"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Datum", name: "date", widget: "datetime"}
+          - {label: "Gewichtung", name: "weight", widget: "number"}
+          - {label: "Beschreibung", name: "body", widget: "markdown"}
+
+      - label: "Bilder"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "Bild", name: "image", widget: "image"}
+          - {label: "Bildbeschreibung", name: "alt", widget: "string"}
 
   - name: "pages"
-    label: "Legal Obligations"
+    label: "Impressum & Datenschutz"
     files:
       - name: "imprint"
         label: "Imprint"
