@@ -7,6 +7,7 @@
 {% endif %}
 
 {% if current.assets %}
+{# The assets variable holds paths to all assets in the directory of a page with resources (see asset colocation) #}
 <div class="gallery py-5">
     <div class="columns is-mobile is-multiline is-variable is-1">
         {% for asset in current.assets -%}

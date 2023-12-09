@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    {% set image_data = load_data(path=page.extra.images) %}
+    
+    <section class="section notch-safe">
+        <div class="container is-max-desktop">
+            <h1 class="title is-2">{{ page.title }}</h1>
+
+            <div class="content">
+                {{ page.content | safe }}
+            </div>
+
+            <div id="gallery" class="columns is-multiline">
+                {% for image in image_data.images %}
+                    {% set image_thumbnail = resize_image(path=image.url, height=512, op="fit_height") %}
+                    {% set image_meta = get_image_metadata(path=image.url) %}
+                    <div class="column is-one-third">
+                        <figure class="image is-square">
+                            <a href="/{{ image.url }}"
+                               data-pswp-width="{{ image_meta.width }}"
+                               data-pswp-height="{{ image_meta.height }}"
+                               target="_blank"
+                               data-cropped="true"
+                            >
+                                <img src="{{ image_thumbnail.url }}"
+                                     alt="{{ image.alt_text }}"
+                                     style="object-fit: cover;">
+                            </a>
+                        </figure>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+
+
+{% block additional_js %}
+<script type="module" src="/js/photoswipe.js"></script>
+{% endblock additional_js %}
+
+
+{% block additional_css %}
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+{% endblock additional_css %}

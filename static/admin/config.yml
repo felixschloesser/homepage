@@ -129,7 +129,7 @@ collections:
             name: "job"
             widget: "object"
             fields:
-              - {label: "Rolle", name: "role", widget: "string"}
+              - {label: "Gewünschte Rolle", name: "desired_role", widget: "string"}
               - {label: "E-Mail", name: "email", widget: "string"}
 
       - name: "skills"
@@ -163,58 +163,56 @@ collections:
               - {label: "Niveau [EN]", name: "level_en", widget: "string"}
               - {label: "Niveau [DE]", name: "level_de", widget: "string"}
 
+
   - name: "photography"
-    label: "Fotografie"
+    label: "Fotoalben"
+    label_singular: "Fotoalbum"
     folder: "content/photography"
+    path: '{{slug}}/index'
     create: true  # Allows creation of new photography categories
-    slug: "{{slug}}"
+    media_folder: ""
+    public_folder: ""
     fields:
-      - label: "Photography Category"
-        name: "category"
-        widget: "string"
-        hint: "This is a unique identifier for the category, like 'scotland'."
+      - { label: { en: "Title", de: "Titel" }, name: "title", widget: "string" }
+      - { label: { en: "Date", de: "Datum" }, name: "date", widget: "datetime" }
+      - { label: { en: "Weight", de: "Gewicht" }, name: "weight", widget: "number" }
+      - { label: { en: "Description", de: "Beschreibung" }, name: "body", widget: "markdown" }
+      - label: { en: "Images", de: "Bilder" }
+        name: "image"
+        widget: "image"
 
-      - label: "English Content"
-        name: "english_content"
-        widget: "object"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Date", name: "date", widget: "datetime"}
-          - {label: "Weight", name: "weight", widget: "number"}
-          - {label: "Description", name: "body", widget: "markdown"}
 
-      - label: "German Content"
-        name: "german_content"
-        widget: "object"
-        fields:
-          - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Datum", name: "date", widget: "datetime"}
-          - {label: "Gewichtung", name: "weight", widget: "number"}
-          - {label: "Beschreibung", name: "body", widget: "markdown"}
-
-      - label: "Bilder"
-        name: "images"
-        widget: "list"
-        fields:
-          - {label: "Bild", name: "image", widget: "image"}
-          - {label: "Bildbeschreibung", name: "alt", widget: "string"}
-
-  - name: "pages"
-    label: "Impressum & Datenschutz"
+  - name: "legal"
+    label: "Rechtliches"
     files:
-      - name: "imprint"
-        label: "Imprint"
-        preview_path: "/{{slug}}"
+      - name: "imprint/en"
+        label: "Impressum [EN]"
+        preview_path: "/imprint"
         file: "content/_imprint.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Fließtext", name: "body", widget: "markdown"}
 
+      - name: "imprint/de"
+        label: "Impressum [DE]"
+        preview_path: "/de/imprint"
+        file: "content/_imprint.de.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Fließtext", name: "body", widget: "markdown"}
 
-      - name: "data-protection"
-        label: "Data Protection"
-        preview_path: "/{{slug}}"
+      - name: "data_protection/en"
+        label: "Datenschutz [EN]"
+        preview_path: "/data-protection"
         file: "content/_data_protection.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Fließtext", name: "body", widget: "markdown"}
+
+      - name: "data_protection/de"
+        label: "Datenschutz [DE]"
+        preview_path: "/de/data-protection"
+        file: "content/_data_protection.de.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Fließtext", name: "body", widget: "markdown"}

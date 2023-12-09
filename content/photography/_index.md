@@ -1,9 +1,8 @@
 +++
 title = "Photography"
-template="photo_index.html"
-page_template = "page.html"
+template="album_index.html"
+page_template = "album.html"
 sort_by = "weight"
 +++
 
-Most of the images are from my Fuji X100F, some from my iPhone.
-
+Most of the images were taken with a Fuji X100F or my new X-E4.

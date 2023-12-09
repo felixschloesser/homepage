@@ -1,0 +1,57 @@
+[[images]]
+title = { en = "Big Train Station", de = "Großer Bahnhof" }
+url = "images/china/big-train-station.jpg"
+alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
+description = { en = "lololo", de = "" }
+tags = { en = ["Shanghai", "China", "Train Station"], de = ["Shanghai", "China", "Bahnhof"] }
+date = "2019-01-03"
+license = "CC BY-NC-SA 4.0"
+
+[images.location]
+latitude = 31.249162
+longitude = 121.458055
+area = "Shanghai"
+region = "China"
+
+[images.camera]
+brand = "Canon"
+model = "EOS REBEL T3i"
+
+[images.camera.lens]
+brand = "Canon"
+model = "EF-S18-55mm f/3.5-5.6 IS II"
+
+[images.camera.settings]
+focal_length_mm = 18
+aperture = 3.5
+shutter_speed = "1/60 sec"
+iso = "800"
+
+[[images]]
+title = { en = "Bikes in Bush", de = "Fahrräder im Busch" }
+url = "images/china/bikes-in-bush.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+description = { en = "", de = "" }
+tags = { en = ["Shanghai", "China", "Bikes"], de = ["Shanghai", "China", "Fahrräder"] }
+date = "2019-01-03"
+license = "CC BY-NC-SA 4.0"
+
+[images.location]
+latitude = 31.230416
+longitude = 121.473701
+area = "Shanghai"
+region = "China"
+
+[images.camera]
+brand = "Canon"
+model = "Canon EOS REBEL T3i"
+
+[images.camera.lens]
+brand = "Canon"
+model = "EF-S18-55mm f/3.5-5.6 IS II"
+
+[images.camera.settings]
+focal_length = "18.0 mm"
+aperture = "f/3.5"
+shutter_speed = "1/80 sec"
+iso = "800"

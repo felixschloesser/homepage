@@ -1,9 +1,10 @@
 +++
 title = "Belgien"
-date=2020-01-01
 weight=4
+
+[extra]
+images = "content/photography/belgium/images.toml"
+hero_image = "static/images/belgium/brussels-house.jpg"
 +++
 
 Verschiedenen Reisen in meine Heimat.
-
-{{ gallery() }}

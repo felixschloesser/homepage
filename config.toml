@@ -7,7 +7,7 @@ default_language = "en"
 
 title = "Felix Schlösser"
 description = "A Software Engineer currently living in Hamburg, Germany. Sometimes goes by TinTin."
-
+debug = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -22,9 +22,8 @@ external_links_no_follow = true
 external_links_no_referrer = true
 
 
-[translations]
 
-[languages.en.translations]
+[translations]
 occupation = "CS Student at Hamburg University of Technology"
 by = "by"
 source = "source"

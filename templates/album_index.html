@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% import "_macros.html" as macros %}
+
+{% block content %}
+    <section class="section notch-safe">
+        <div class="container is-max-desktop">
+            <h1 class="title is-2">{{ section.title }}</h1>
+
+            <div class="content">
+                {{ section.content | safe }}
+            </div>
+
+            <div class="columns is-multiline">
+                {% for page in section.pages %}
+                    {% set_global resized_image = resize_image(path=page.extra.hero_image, width=512, height=512) %}
+
+                    {% set image_data = load_data(path=page.extra.images) %}
+
+                    {% if lang == "de" %}
+                        {% set earliest_date = image_data.images | map(attribute='date') | sort | first | date(format="%B %Y", locale="de_DE") %}
+                        {% set latest_date = image_data.images | map(attribute='date') | sort | last | date(format="%B %Y", locale="de_DE") %}
+                    {% else %}
+                        {% set earliest_date = image_data.images | map(attribute='date') | sort | first | date(format="%B %Y") %}
+                        {% set latest_date = image_data.images | map(attribute='date') | sort | last | date(format="%B %Y") %}
+                    {% endif %}
+
+
+
+                    <div class="column is-half">
+                        <div class="card clickable"
+                             data-href="{{ get_url(path=page.path) }}"
+                             tabindex="0">
+                            <div class="card-image">
+                                <figure class="figure">
+                                    <img src="{{ resized_image.url }}">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <!-- Duration spans multiple months -->
+                                {% if earliest_date != latest_date %}
+                                    <p>{{ earliest_date }} - {{ latest_date }}</p>
+                                {% else %}
+                                    <p>{{ earliest_date }}</p>
+                                {% endif %}
+
+                                <h2 class="title">{{ page.title }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock content %}
+
+{% block additional_js %}
+    <script src="{{ get_url(path="js/clickable.js") }}"></script>
+{% endblock additional_js %}
