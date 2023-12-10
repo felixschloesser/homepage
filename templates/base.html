@@ -30,8 +30,19 @@
 
   <!--Open Graph-->
   <meta property="og:title" content="{{ macros::get_current_page_title() }}">
-  <meta property="og:image" content="/images/tintin_in_shenzhen.jpg">
-  <meta property="og:description" content="{{ config.description }}">
+  {% if page.extra.preview_image %}
+    <meta property="og:image" content="{{ page.extra.preview_image }}">
+  {% else %}
+     <meta property="og:image" content="/images/tintin_in_shenzhen.jpg">
+  {% endif %}
+
+  {% if page.content %}
+    <meta property="og:description" content="{{ page.content }}">
+  {% elif secction.content %}
+    <meta property="og:description" content="{{ section.content }}">
+  {% else %}
+    <meta property="og:description" content="{{ config.description }}">
+  {% endif %}
   <meta property="og:locale" content="{{ lang }}">
   {% if section %}
       {% for translation in section.translations %}

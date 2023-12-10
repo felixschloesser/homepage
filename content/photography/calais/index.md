@@ -4,7 +4,7 @@ weight=5
 
 [extra]
 images = "content/photography/calais/images.toml"
-hero_image = "static/images/calais/pots.jpg"
+preview_image = "static/images/calais/pots.jpg"
 +++
 
 Pictures taken during my work in a kitchen for refugees in Calais, France.
