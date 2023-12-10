@@ -1,11 +1,59 @@
 [[images]]
-url = "images/china/big-train-station.jpg"
-alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
-date = "2019-01-03"
+url = "images/belgium/bridge.jpg"
+alt_text = { en = "Black and white picture showing the concrete pillar of a train bridge in the center and two people are walking down into the valley.", de = "Schwarzweißbild des Betonpfeilers eine Zugbrücke, aufgenommen von unter der Brücke. Unten links sind zwei Menschen die runter ins Tal gehen."}
+date = "2020-06-07"
 license = "CC BY-NC-SA 4.0"
 
 [[images]]
-url = "images/china/bikes-in-bush.jpg"
+url = "images/belgium/brussels-house.jpg"
 alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
-date = "2019-01-03"
+date = "2020-07-17"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/brussels-street.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-07-16"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/europe-abstract.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-07-17"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/europe-street.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-07-17"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/farn.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-09-13"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/guillmin.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-07-18"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/statue.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-07-17"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/venn.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-09-13"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/belgium/wooden-stairs.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-09-07"
 license = "CC BY-NC-SA 4.0"

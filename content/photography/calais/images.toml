@@ -1,11 +1,35 @@
 [[images]]
-url = "images/china/big-train-station.jpg"
+url = "images/calais/cactus.jpg"
 alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
-date = "2019-01-03"
+date = "2019-10-13"
 license = "CC BY-NC-SA 4.0"
 
 [[images]]
-url = "images/china/bikes-in-bush.jpg"
-alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
-date = "2019-01-03"
+url = "images/calais/chopping.jpg"
+alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
+date = "2019-10-08"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/calais/sort-shoes.jpg"
+alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
+date = "2019-10-08"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/calais/sort-sleeping-bags.jpg"
+alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
+date = "2019-10-08"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/calais/throw-box.jpg"
+alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
+date = "2019-10-08"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/calais/toilet.jpg"
+alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
+date = "2019-10-13"
 license = "CC BY-NC-SA 4.0"

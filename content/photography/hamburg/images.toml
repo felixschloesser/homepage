@@ -1,11 +1,65 @@
 [[images]]
-url = "images/china/big-train-station.jpg"
+url = "images/hamburg/bunker.jpg"
 alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
-date = "2019-01-03"
+date = "2021-04-11"
 license = "CC BY-NC-SA 4.0"
 
 [[images]]
-url = "images/china/bikes-in-bush.jpg"
+url = "images/hamburg/shed.jpg"
 alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
-date = "2019-01-03"
+date = "2021-10-06"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/canoe.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-10-06"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/caravan.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-09-30"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/construction.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-09-08"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/harbour.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2020-07-12"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/ship.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-03-21"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/heide.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-02-22"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/kulturkran.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-03-21"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/pier.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2019-06-12"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/hamburg/bike.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-06-12"
 license = "CC BY-NC-SA 4.0"

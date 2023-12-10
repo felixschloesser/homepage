@@ -4,9 +4,38 @@
 {% block content %}
 
     {% set image_data = load_data(path=page.extra.images) %}
-    
+
+    {% set earliest_date = image_data.images | map(attribute='date') | sort | first %}
+    {% set latest_date = image_data.images | map(attribute='date') | sort | last %}
+
+    {% set earliest_year = earliest_date | date(format="%Y") %}
+    {% set latest_year = latest_date | date(format="%Y") %}
+
+
+    {% if lang == "de" %}
+        {% set earliest_month = earliest_date | date(format="%B", locale="de_DE") %}
+        {% set earliest_month_year = earliest_date | date(format="%B %Y", locale="de_DE") %}
+        {% set latest_month_year = latest_date | date(format="%B %Y", locale="de_DE") %}
+    {% else %}
+        {% set earliest_month = earliest_date | date(format="%B") %}
+        {% set earliest_month_year = earliest_date | date(format="%B %Y") %}
+        {% set latest_month_year = latest_date | date(format="%B %Y") %}
+    {% endif %}
+
     <section class="section notch-safe">
         <div class="container is-max-desktop">
+            <p class="mb-0">
+                {% if earliest_year != latest_year %}
+                    {# spans multiple years #}
+                    {{ earliest_month_year }} - {{ latest_month_year }}
+                {% elif earliest_date != latest_date %}
+                    {# spans multiple moths #}
+                    {{ earliest_month }} - {{ latest_month_year }}
+                {% else %}
+                    {# spans less than one month #}
+                    {{ earliest_month_year }}
+                {% endif %}
+            </p>
             <h1 class="title is-2">{{ page.title }}</h1>
 
             <div class="content">
@@ -17,7 +46,8 @@
                 {% for image in image_data.images %}
                     {% set image_thumbnail = resize_image(path=image.url, height=512, op="fit_height") %}
                     {% set image_meta = get_image_metadata(path=image.url) %}
-                    <div class="column is-one-third">
+
+                    <div class="column is-one-third-tablet">
                         <figure class="image is-square">
                             <a href="/{{ image.url }}"
                                data-pswp-width="{{ image_meta.width }}"

@@ -1,11 +1,29 @@
 [[images]]
-url = "images/china/big-train-station.jpg"
+url = "images/scottland/bike-locks.jpg"
 alt_text = { en = "Picture of the waiting area of the long-distance train station in Shanghai.", de = "Foto der Wartezone des Fernbahnhofs in Shanghai." }
-date = "2019-01-03"
+date = "2021-09-23"
 license = "CC BY-NC-SA 4.0"
 
 [[images]]
-url = "images/china/bikes-in-bush.jpg"
+url = "images/scottland/construction.jpg"
 alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
-date = "2019-01-03"
+date = "2021-09-24"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/scottland/dock.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-09-25"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/scottland/coin-washers.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-09-24"
+license = "CC BY-NC-SA 4.0"
+
+[[images]]
+url = "images/scottland/lawn.jpg"
+alt_text = { en = "Picture of a bike parking area in Shanghai.", de = "Foto eines Fahrradparkplatzes in Shanghai." }
+date = "2021-09-22"
 license = "CC BY-NC-SA 4.0"
