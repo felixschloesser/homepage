@@ -1,0 +1,12 @@
+first_name = "Felix"
+last_name = "Schlösser"
+
+[address]
+street_name = "Wolfgangsweg"
+house_number = "14"
+post_code = "20459"
+city = "Hamburg"
+
+[job]
+desired_role = "Junior Software Engineer / DevOps"
+email = "job@felixschloesser.de"

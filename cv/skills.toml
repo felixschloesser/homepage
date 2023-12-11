@@ -1,0 +1,76 @@
+[[technical]]
+name = "Python"
+level = "advanced"
+applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
+
+[[technical]]
+name = "Linux Administration"
+level = "intermediate"
+applications = [ "Ansible", "vSphere", "GitLab", "grafana"]
+
+[[technical]]
+name = "DB Administration"
+level = "intermediate"
+applications = [ "PostgreSQL", "MySQL", "Redis"]
+
+
+[[technical]]
+name = "Rust"
+level = "intermediate"
+applications = [ "Personal Projects" ]
+
+
+[[technical]]
+name = "Haskell"
+level = "basic"
+applications = [ "University Projects"]
+
+
+[[technical]]
+name = "JavaScript"
+level = "basic"
+applications = [ "Web Frontend" ]
+
+
+
+[[soft]]
+name_en = "Teamwork & Communication"
+name_de = "Teamarbeit & Kommunikation"
+contexts_en = [
+  "First chair of the board of student representatives (AStA)",
+  "Scout leader",
+  "NGO volunteering",
+]
+contexts_de = [
+  "Erster Vorsitzender des allgemeinen Studierendenausschusses",
+  "Pfadfinderleiter",
+  "Freiwilligenarbeit bei NGOs"
+]
+
+
+[[languages]]
+name_en = "German"
+name_de = "Deutsch"
+level_en = "Native"
+level_de = "Muttersprache"
+
+[[languages]]
+name_en = "English"
+name_de = "Englisch"
+level_en = "C2"
+level_de = "C2"
+
+[[languages]]
+name_en = "French"
+name_de = "Französisch"
+level_en = "C1"
+level_de = "C1"
+
+
+[[languages]]
+name_en = "Japanese"
+name_de = "Japanisch"
+level_en = "JLPT N4"
+level_de = "JLPT N4"
+
+

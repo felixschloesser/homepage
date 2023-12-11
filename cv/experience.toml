@@ -1,0 +1,108 @@
+[[experience]]
+title_en = "Full-Stack Web Developer and Sysadmin"
+title_de = "Full-Stack-Webentwickler und Sysadmin"
+description_en = """\
+    Developed and deployed a custom CMS backend and frontend, as well as internal CRUD web applications. \
+    Deployed and operated several on-premises services on virtual machines using Ansible; \
+    including observability metrics and alerting.\
+    """
+description_de = """\
+    Entwicklung eines custom CMS Back- und Frontends sowie interner CRUD Webanwendungen. \
+    Betrieb mehrere On-Premises-Dienste auf virtuellen Maschinen mit Ansible; \
+    inklusive Observability, Metriken und Alarmen.\
+    """
+organisation = "TU Hamburg"
+department = "AStA"
+location_en = "Hamburg, Germany"
+location_de = "Hamburg"
+start_date = "2019-10-01"
+end_date = "2023-03-31"
+keywords = ["Django", "Wagtail CMS", "Pretix Ticketing", "Bookstack Wiki"]
+
+[[experience]]
+title_en = "Tutor: Python for Data Analysis"
+title_de = "Tutor: Python für Datenanalyse"
+description_en = """\
+    Taught weekly classes for up to 20 students. Topics included everything from algorithms to \
+    data analysis, visualization and machine learning. \
+    """
+description_de = """\
+    Leitung wöchentlicher Übungen für bis zu 20 Studierende. Themen umfassten alles von Algorithmen bis hin zu \
+    Datenanalyse, Visualisierung und maschinellem Lernen. \
+    """
+organisation = "TU Hamburg"
+department = "Institute for Secure Cyberphysical Systems"
+location_en = "Hamburg, Germany"
+location_de = "Hamburg"
+start_date = "2023-03-01"
+end_date = "2023-07-31"
+keywords = ["pandas", "matplotlib", "scikit-learn"]
+
+[[experience]]
+title_en = "Tutor: Computer Networks and Internet Security"
+title_de = "Tutor: Rechnernetze und Internetsicherheit"
+description_en = """\
+    Developed and taught weekly Rasberry Pi based labs for up to 25 students. \
+    Topics included the OSI model, network programming and IP, TLS and DNS security. \
+    """
+description_de = """\
+    Leitung wöchentlicher Laborübugen auf Basis von Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
+    Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit.
+    """
+organisation = "TU Hamburg"
+department = "Institute for Communication Networks"
+location_en = "Hamburg, Germany"
+location_de = "Hamburg"
+start_date = "2018-10-01"
+end_date = "2023-01-31"
+keywords = ["Raspberry Pi", "wireshark", "netem"]
+award_en = "Best Tutor 2020"
+award_de = "Tutor Lehrpreis 2020"
+
+
+[[experience]]
+title_en = "User Interface Developer for a Medical Device"
+title_de = "Benutzeroberflächenentwickler für ein Medizinprodukt"
+description_en = """\
+    Designed, developed and deployed a graphical user interface for an \
+    open hardware ventilator, created by a small team of volunteers. \
+    Financed by the German Federal Ministry for Economic Cooperation and Development and certified by TÜV-Süd \
+    for manufacturing in newly industrialized countries.\
+    """
+description_de = """\
+    Design und Entwicklung einer grafischen Benutzeroberfläche für ein \
+    Open-Hardware-Beatmungsgerät, das von einem kleinen Team von Freiwilligen entwickelt wurde. \
+    Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung und vom TÜV-Süd zertifiziert \
+    für die Fertigung in Schwellenländern.\
+    """
+organisation = "TM Rescue-Respiration UG"
+location_en = "Hamburg, Germany"
+location_de = "Hamburg"
+start_date = "2020-08-01"
+end_date = "2022-07-28"
+keywords = ["V-Modell", "Model-View-Presenter", "PyQt5", "pytest"]
+
+
+[[experience]]
+title_en = "Intern: Computer Vision based Quality Control"
+title_de = "Praktikant: Computer-Visions basierte Qualitätskontrolle"
+description_en = """\
+    Researched and developed a computer vision based industrial quality control system to identify defects in \
+    glossy, curved surface, metal parts. Created a capture setup and a dataset of 1000+ images. \
+    Developed a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction. \
+    """
+description_de = """\
+    Erforschung und frühe Entwicklung eines computergestützten industriellen Qualitätssicherungssystems zur Identifizierung von Defekten in \
+    glänzenden, gekrümmten Metalloberflächen. Erstellung eines Aufnahmesetup und eines Datensatz von 1000+ Bildern. \
+    Entwicklung eines containerisierten Prototypen auf Basis eines Jupyter-Notebooks mit Kantenfindung und \
+    morphologischen Operationen zur Merkmalsextraktion.\
+    """
+organisation = "Rongheng Information Technology Co."
+location_en = "Shanghai, China"
+location_de = "Shanghai, China"
+start_date = "2019-07-01"
+end_date = "2019-09-30"
+keywords = ["SCRUM", "docker", "jupyter", "scikit-image"]
+
+
+
