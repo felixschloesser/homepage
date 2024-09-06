@@ -1,5 +1,17 @@
 media: static/images
 content:
+  - name: home
+    label: Startseite
+    type: file
+    path: content/_index.md
+    format: toml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
   - name: imprint
     label: Impressum
     type: file
