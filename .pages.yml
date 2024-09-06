@@ -4,3 +4,13 @@ content:
     label: Impressum
     type: file
     path: content/imprint.md
+    fields:
+      - name: weight
+        label: Weight
+        type: number
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
