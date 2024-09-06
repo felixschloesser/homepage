@@ -4,6 +4,7 @@ content:
     label: Impressum
     type: file
     path: content/imprint.md
+    format: toml-frontmatter
     fields:
       - name: weight
         label: Weight
