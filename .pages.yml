@@ -1,9 +1,9 @@
 media: static/images
 content:
   - name: home
-    label: Startseite [EN]
+    label: Startseite [DE]
     type: file
-    path: content/_index.md
+    path: content/_index.de.md
     format: toml-frontmatter
     fields:
       - name: title
@@ -13,9 +13,9 @@ content:
         label: Body
         type: rich-text
   - name: home
-    label: Startseite [DE]
+    label: Startseite [EN]
     type: file
-    path: content/_index.de.md
+    path: content/_index.md
     format: toml-frontmatter
     fields:
       - name: title
