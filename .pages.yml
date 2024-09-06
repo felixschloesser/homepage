@@ -12,8 +12,23 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: imprint.de
+    label: Impressum [DE]
+    type: file
+    path: content/imprint.de.md
+    format: toml-frontmatter
+    fields:
+      - name: weight
+        label: Weight
+        type: number
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
   - name: imprint
-    label: Impressum
+    label: Impressum [EN]
     type: file
     path: content/imprint.md
     format: toml-frontmatter
