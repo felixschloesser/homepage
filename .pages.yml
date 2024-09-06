@@ -1,1 +1,8 @@
 media: static/images
+content:
+  - name: imprint
+    label: Impressum
+    type: single
+    path: content/imprint.md
+    
+    
