@@ -96,18 +96,9 @@
                                 {% endif %}
                             </h3>
                             <div class="tags mb-0">
-                                {% if exp.award %}
-                                    <span class="tags has-addons mb-0 mr-2">
-                                        <span class="tag is-static button is-small is-danger is-light is-outlined mb-1">
-                                            {{ trans(key="award", lang=lang) | title }}
-                                        </span>
-                                        <span class="tag is-static button is-small is-danger is-outlined is-family-code mb-1">
-                                            {% if lang == "de" %}
-                                                {{ exp.award_de }}
-                                            {% else %}
-                                                {{ exp.award_en }}
-                                            {% endif %}
-                                        </span>
+                                {% if exp.highlight %}
+                                    <span class="tag is-static button is-small is-danger is-outlined is-family-code mb-1">
+                                        {{ exp.highlight }}
                                     </span>
                                 {% endif %}
                                 {% for keyword in exp.keywords %}

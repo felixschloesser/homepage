@@ -4,14 +4,20 @@ level = "advanced"
 applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
 
 [[technical]]
-name = "Linux Administration"
+name = "Linux DevOps"
 level = "intermediate"
-applications = [ "Ansible", "vSphere", "GitLab", "grafana"]
+applications = [ "Ansible", "GitLab CI/CD", "prometheus"]
 
 [[technical]]
-name = "DB Administration"
+name = "Databases"
 level = "intermediate"
-applications = [ "PostgreSQL", "MySQL", "Redis"]
+applications = [ "PostgreSQL", "DuckDB", "Redis", "MongoDB"]
+
+[[technical]]
+name = "System Design"
+level = "intermediate"
+applications = [ "Micoservices", "Client-Server", "JAMStack"]
+
 
 
 [[technical]]
@@ -23,13 +29,13 @@ applications = [ "Personal Projects" ]
 [[technical]]
 name = "Haskell"
 level = "basic"
-applications = [ "University Projects"]
+applications = [ "University Projects" ]
 
 
 [[technical]]
-name = "JavaScript"
-level = "basic"
-applications = [ "Web Frontend" ]
+name = "HTML / CSS (+ JS)"
+level = "intermediate"
+applications = [ "Client Homepages" ]
 
 
 
@@ -57,14 +63,14 @@ level_de = "Muttersprache"
 [[languages]]
 name_en = "English"
 name_de = "Englisch"
-level_en = "C2"
-level_de = "C2"
+level_en = "C1"
+level_de = "C1"
 
 [[languages]]
 name_en = "French"
 name_de = "Französisch"
-level_en = "C1"
-level_de = "C1"
+level_en = "B2"
+level_de = "B2"
 
 
 [[languages]]

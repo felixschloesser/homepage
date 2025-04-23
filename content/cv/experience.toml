@@ -1,4 +1,29 @@
 [[experience]]
+title_en = "Technical Consultant Public Sector Digitalization"
+title_de = "Technischer Berater Digitalisierung öffentliche Verwaltung"
+description_en = """\
+    Worked with Product Owners to optimize software architectures and processes.
+    Guided requirements engineering through structured workshops and technical analyses.
+    Documented and maintained GDPR compliance \
+    and the standards of the Federal Office for Information Security (BSI).
+    Prepared management summaries for strategic technical decisions.
+    """
+description_de = """\
+    Zusammenarbeit mit Product Ownern zur Optimierung von Softwarearchitektur und Prozessen.
+    Begleitung der Anforderungserhebung durch strukturierte Workshops und technische Analysen.
+    Dokumentation und Pflege der DSGVO- und BSI-Grundschutz-Compliance.
+    Vorbereitung von Management-Summaries zu strategisch-technischen Entscheidungen.
+    """
+organisation = "Sozialbehörde Hamburg"
+department = "Amt Z"
+location_en = "Hamburg, Germany"
+location_de = "Hamburg"
+start_date = "2023-11-15"
+end_date = "2024-08-31"
+keywords = ["Matrix-Messenger", "Low-Code", "BPMN", "SCRUM"]
+highlight = "OpenAPI"
+
+[[experience]]
 title_en = "Full-Stack Web Developer and Sysadmin"
 title_de = "Full-Stack-Webentwickler und Sysadmin"
 description_en = """\
@@ -11,13 +36,14 @@ description_de = """\
     Betrieb mehrere On-Premises-Dienste auf virtuellen Maschinen mit Ansible; \
     inklusive Observability, Metriken und Alarmen.\
     """
-organisation = "TU Hamburg"
+organisation = "TU-Hamburg"
 department = "AStA"
 location_en = "Hamburg, Germany"
 location_de = "Hamburg"
 start_date = "2019-10-01"
 end_date = "2023-03-31"
-keywords = ["Django", "Wagtail CMS", "Pretix Ticketing", "Bookstack Wiki"]
+keywords = ["Wagtail-CMS", "Pretix Ticketing", "Bookstack Wiki"]
+highlight = "Django"
 
 [[experience]]
 title_en = "Tutor: Python for Data Analysis"
@@ -36,7 +62,8 @@ location_en = "Hamburg, Germany"
 location_de = "Hamburg"
 start_date = "2023-03-01"
 end_date = "2023-07-31"
-keywords = ["pandas", "matplotlib", "scikit-learn"]
+keywords = ["matplotlib", "scikit-learn"]
+highlight = "pandas"
 
 [[experience]]
 title_en = "Tutor: Computer Networks and Internet Security"
@@ -56,9 +83,7 @@ location_de = "Hamburg"
 start_date = "2018-10-01"
 end_date = "2023-01-31"
 keywords = ["Raspberry Pi", "wireshark", "netem"]
-award_en = "Best Tutor 2020"
-award_de = "Tutor Lehrpreis 2020"
-
+highlight = "Lehrpreis 2020"
 
 [[experience]]
 title_en = "User Interface Developer for a Medical Device"
@@ -83,9 +108,10 @@ end_date = "2022-07-28"
 keywords = ["V-Modell", "Model-View-Presenter", "PyQt5", "pytest"]
 
 
+
 [[experience]]
 title_en = "Intern: Computer Vision based Quality Control"
-title_de = "Praktikant: Computer-Visions basierte Qualitätskontrolle"
+title_de = "Praktikant: Computer-Vision basierte Qualitätskontrolle"
 description_en = """\
     Researched and developed a computer vision based industrial quality control system to identify defects in \
     glossy, curved surface, metal parts. Created a capture setup and a dataset of 1000+ images. \
@@ -103,6 +129,5 @@ location_de = "Shanghai, China"
 start_date = "2019-07-01"
 end_date = "2019-09-30"
 keywords = ["SCRUM", "docker", "jupyter", "scikit-image"]
-
 
 
