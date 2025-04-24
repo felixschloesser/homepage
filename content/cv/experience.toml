@@ -20,8 +20,8 @@ location_en = "Hamburg, Germany"
 location_de = "Hamburg"
 start_date = "2023-11-15"
 end_date = "2024-08-31"
-keywords = ["Low-Code", "BPMN", "Requirements-Engineering"]
-highlight = "OpenAPI"
+keywords = ["OpenAPI", "Low-Code", "BPMN"]
+highlight = "Requirements-Engineering"
 
 [[experience]]
 title_en = "Full-Stack Web Developer and Sysadmin"
