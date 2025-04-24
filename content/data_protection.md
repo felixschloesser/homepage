@@ -7,9 +7,9 @@ This website does not collect, store or process personal data. This website does
 
 ### Responsible Person
 Felix Schlösser<br>
-Wolfgangsweg 14<br>
-20459 Hamburg<br>
-Germany
+Mechelsestraat 122<br>
+3000 Leuven<br>
+Belgium
 
 
 #### Third Party Inclusion
