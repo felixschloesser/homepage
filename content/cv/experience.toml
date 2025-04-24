@@ -4,8 +4,8 @@ title_de = "Technischer Berater Digitalisierung öffentliche Verwaltung"
 description_en = """\
     Worked with Product Owners to optimize software architectures and processes.
     Guided requirements engineering through structured workshops and technical analyses.
-    Documented and maintained GDPR compliance \
-    and the standards of the Federal Office for Information Security (BSI).
+    Ensured and documented GDPR compliance \
+    and compliance the standards of the Federal Office for Information Security (BSI).
     Prepared management summaries for strategic technical decisions.
     """
 description_de = """\
@@ -20,7 +20,7 @@ location_en = "Hamburg, Germany"
 location_de = "Hamburg"
 start_date = "2023-11-15"
 end_date = "2024-08-31"
-keywords = ["Matrix-Messenger", "Low-Code", "BPMN", "SCRUM"]
+keywords = ["Low-Code", "BPMN", "Requirements-Engineering"]
 highlight = "OpenAPI"
 
 [[experience]]
