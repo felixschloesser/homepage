@@ -6,8 +6,9 @@ Allgemeine Informationspflichten nach § 5 Telemediengesetz (TMG):
 
 ### Name und Anschrift
 Felix Schlösser<br>
-Wolfgangsweg 14<br>
-20459 Hamburg<br>
+Mechelsestraat 122<br>
+3000 Löwen<br>
+Belgium
 
 **E-Mail:** [info@felixschloesser.de](mailto:info@felixschloesser.de)
 
