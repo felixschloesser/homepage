@@ -6,7 +6,7 @@ build_search_index = false
 default_language = "en"
 
 title = "Felix Schlösser"
-description = "A Software Engineer currently living in Hamburg, Germany. Sometimes goes by TinTin."
+description = "A Software Engineer currently living in Leuven, Belgium. Sometimes goes by TinTin."
 debug = true
 
 [markdown]
@@ -24,7 +24,7 @@ external_links_no_referrer = true
 
 
 [translations]
-occupation = "CS Student at Hamburg University of Technology"
+occupation = "In-house technical consultant for public sector digitalisation"
 by = "by"
 source = "source"
 source_code = "source code"
@@ -62,11 +62,11 @@ references = "References available upon request."
 [languages.de]
 # Language specific settigns
 title = "Felix Schlösser"
-description = "Ein Softwareentwickler derzeit in Hamburg lebt. In machen kontexten auch als TinTin (frz. Tim von Tim und Struppi) bekannt."
+description = "Ein Softwareentwickler derzeit in Löwen, Belgien lebt. In machen kontexten auch als TinTin (frz. Tim von Tim und Struppi) bekannt."
 
 
 [languages.de.translations]
-occupation = "Informatikstudent an der TU-Hamburg"
+occupation = "In-house technischer Berater für die Digitalisierung des öffentlichen Verwaltung"
 by = "von"
 source = "Quelle"
 source_code = "Quelltext"
@@ -106,9 +106,7 @@ references = "Referenzen können auf Anfrage zur Verfügung gestellt werden."
 [extra]
 # Put all your custom variables here
 debug=false
-
 brand_text = "TinTin"
-
 name = "Felix Schlösser"
 nickname = "TinTin"
 image="tintin_in_shenzhen.jpg"
