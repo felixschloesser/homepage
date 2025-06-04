@@ -27,7 +27,7 @@ applications = [ "Personal Projects" ]
 
 
 [[technical]]
-name = "Haskell"
+name = "Haskell & C"
 level = "basic"
 applications = [ "University Projects" ]
 
