@@ -25,17 +25,15 @@ name = "Rust"
 level = "intermediate"
 applications = [ "Personal Projects" ]
 
+[[technical]]
+name = "HTML / CSS (+ JS)"
+level = "intermediate"
+applications = [ "Client Homepages" ]
 
 [[technical]]
 name = "Haskell & C"
 level = "basic"
 applications = [ "University Projects" ]
-
-
-[[technical]]
-name = "HTML / CSS (+ JS)"
-level = "intermediate"
-applications = [ "Client Homepages" ]
 
 
 
@@ -52,6 +50,7 @@ contexts_de = [
   "Pfadfinderleiter",
   "Freiwilligenarbeit bei NGOs"
 ]
+
 
 
 [[languages]]
@@ -71,7 +70,6 @@ name_en = "French"
 name_de = "Französisch"
 level_en = "B2"
 level_de = "B2"
-
 
 [[languages]]
 name_en = "Japanese"
