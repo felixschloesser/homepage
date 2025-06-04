@@ -3,14 +3,14 @@ title_en = "Technical Consultant Public Sector Digitalization"
 title_de = "Technischer Berater Digitalisierung öffentliche Verwaltung"
 description_en = """\
     Implemented Architecutral Decision Records and the C4-Model to document and optimize software architectures and processes.
-    Guided requirements engineering through structured workshops and technical analyses.
+    Elicited requirements through event storming workshops and documented them using User Stories and Scenario Driven Acceptance Criteria to ensure Testablity.
     Ensured and documented GDPR compliance \
     and compliance the standards of the Federal Office for Information Security (BSI).
     Prepared management summaries for strategic technical decisions.
     """
 description_de = """\
     Implementierung von Architekturentscheidungsprotokollen und C4-Modellierung zur Dokumentation und Optimierung von Softwarearchitekturen und Prozessen.
-    Begleitung der Anforderungserhebung durch strukturierte Workshops und technische Analysen.
+    Anforderungserhebung durch event storming workshops und Dokumentetion mittels User Stories und Szenariogetriebener Akzeptanzkriterien zur sicherstellung der Testbarkeit.
     Dokumentation und Pflege der DSGVO- und BSI-Grundschutz-Compliance.
     Vorbereitung von Management-Summaries zu strategisch-technischen Entscheidungen.
     """

@@ -16,7 +16,7 @@ applications = [ "PostgreSQL", "DuckDB", "Redis", "MongoDB"]
 [[technical]]
 name = "System Design"
 level = "intermediate"
-applications = [ "Micoservices", "Client-Server", "JAMStack"]
+applications = [ "DDD", "Microservices", "JAMStack"]
 
 
 
