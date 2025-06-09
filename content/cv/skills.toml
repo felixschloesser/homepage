@@ -11,7 +11,7 @@ applications = [ "Ansible", "GitLab CI/CD", "prometheus"]
 [[technical]]
 name = "Databases"
 level = "intermediate"
-applications = [ "PostgreSQL", "DuckDB", "Redis", "MongoDB"]
+applications = [ "PostgreSQL", "DuckDB", "Redis"]
 
 [[technical]]
 name = "System Design"
