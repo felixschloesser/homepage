@@ -20,7 +20,7 @@ location_en = "Hamburg, Germany"
 location_de = "Hamburg"
 start_date = "2023-11-15"
 end_date = "2024-08-31"
-keywords = ["DDD", "OpenAPI", "Arc42", "BPMN"]
+keywords = ["DDD", "OpenAPI", "arc42", "BPMN"]
 highlight = "Requirements-Engineering"
 
 [[experience]]
