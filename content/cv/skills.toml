@@ -38,14 +38,14 @@ applications = [ "University Projects" ]
 
 
 [[soft]]
-name_en = "Teamwork & Communication"
-name_de = "Teamarbeit & Kommunikation"
-contexts_en = [
+name.en = "Teamwork & Communication"
+name.de = "Teamarbeit & Kommunikation"
+contexts.en = [
   "First chair of the board of student representatives (AStA)",
   "Scout leader",
   "NGO volunteering",
 ]
-contexts_de = [
+contexts.de = [
   "Erster Vorsitzender des allgemeinen Studierendenausschusses",
   "Pfadfinderleiter",
   "Freiwilligenarbeit bei NGOs"
@@ -54,27 +54,33 @@ contexts_de = [
 
 
 [[languages]]
-name_en = "German"
-name_de = "Deutsch"
-level_en = "Native"
-level_de = "Muttersprache"
+name.en = "German"
+name.de = "Deutsch"
+level.en = "Native"
+level.de = "Muttersprache"
 
 [[languages]]
-name_en = "English"
-name_de = "Englisch"
-level_en = "C1"
-level_de = "C1"
+name.en = "English"
+name.de = "Englisch"
+level.en = "C1"
+level.de = "C1"
 
 [[languages]]
-name_en = "French"
-name_de = "Französisch"
-level_en = "B2"
-level_de = "B2"
+name.en = "French"
+name.de = "Französisch"
+level.en = "B2"
+level.de = "B2"
 
 [[languages]]
-name_en = "Japanese"
-name_de = "Japanisch"
-level_en = "JLPT N4"
-level_de = "JLPT N4"
+name.en = "Dutch"
+name.de = "Niederländsich"
+level.en = "B1"
+level.de = "B1"
+
+[[languages]]
+name.en = "Japanese"
+name.de = "Japanisch"
+level.en = "JLPT N4"
+level.de = "JLPT N4"
 
 

@@ -8,5 +8,5 @@ post_code = "20459"
 city = "Hamburg"
 
 [job]
-desired_role = "Junior Software Engineer / Consultant"
+desired_role = "Software Engineer / Consultant"
 email = "job@felixschloesser.de"
