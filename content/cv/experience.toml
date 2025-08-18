@@ -1,17 +1,18 @@
 [[experience]]
-title_en = "Technical Consultant Software Architecture"
-title_de = "Technischer Berater Softwarearchitektur"
-description_en = """\
-    Implemented Architecutral Decision Records and the C4-Model to document and optimize software systems and processes.
-    Elicited requirements through event storming workshops and documented them using User Stories and Scenario Driven Acceptance Criteria to ensure Testablity.
-    Ensured and documented GDPR compliance \
-    and compliance the standards of the Federal Office for Information Security (BSI).
+title_en = "Software Architecture Consultant and deputy CISO"
+title_de = "Berater Softwarearchitektur und Stv. CISO"
+description_en = """
+    Elicited requirements through event storming workshops and documented them using executable specifications and scenario driven acceptance criteria.
+    Augmented them using quality scenarios to ensure testablity and improve stakeholder communication.
+     Ensured and documented GDPR and IT-Security compliance.
+     Implemented Architecutral Decision Records and the C4-Model to document and optimize software systems and processes.
     Prepared management summaries for strategic technical decisions.
     """
 description_de = """\
+    Anforderungserhebung durch Event-Storming-Workshops und Dokumentation mittels User Stories und Szenariogetriebener Akzeptanzkriterien.
+    Erweiterung durch Qualitätsszenarien zur Sicherstellung von Testbarkeit und verbesserter Stakeholder-Kommunikation.
+    Dokumentation und Durchsetzung der DSGVO- und IT-Sicherheits-Compliance.
     Implementierung von Architekturentscheidungsprotokollen und C4-Modellierung zur Dokumentation und Optimierung von Softwarearchitekturen und Prozessen.
-    Anforderungserhebung durch event storming workshops und Dokumentetion mittels User Stories und Szenariogetriebener Akzeptanzkriterien zur sicherstellung der Testbarkeit.
-    Dokumentation und Pflege der DSGVO- und BSI-Grundschutz-Compliance.
     Vorbereitung von Management-Summaries zu strategisch-technischen Entscheidungen.
     """
 organisation = "Sozialbehörde Hamburg"
@@ -20,7 +21,7 @@ location_en = "Hamburg, Germany"
 location_de = "Hamburg"
 start_date = "2023-11-15"
 end_date = "2024-08-31"
-keywords = ["DDD", "OpenAPI", "arc42", "BPMN"]
+keywords = ["DDD", "arc42", "BSI-Grundschutz]
 highlight = "Requirements-Engineering"
 
 [[experience]]
