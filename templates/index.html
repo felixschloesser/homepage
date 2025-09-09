@@ -3,9 +3,10 @@
 
 {% block content %}
 
+{% set image = resize_image(path=section.extra.image.path, width=800, height=800) %}
+
 
 <div class="container is-max-desktop">
-
     <div class="hero">
         <div class="hero-body">
             <div class="columns is-vcentered is-variable is-5">
@@ -13,11 +14,10 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-square">
-                                <img src="{{ get_url(path=section.extra.image_path) }}" alt="{{ section.extra.image_alt }}">
+                                <img src="{{ image.url }}" alt="{{ section.extra.image.alt }}">
                             </figure>
                         </div>
                     </div>
-                    <p class="is-size-7 mt-3">{{ section.extra.image_title }} {{ trans(key="by", lang=lang) }} <a href="{{ section.extra.image_source }}">{{ section.extra.image_author }}</a>.</p>
                 </div>
                 <div class="column">
                     <h1 class="title">

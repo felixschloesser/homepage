@@ -2,7 +2,7 @@
 title = "Imprint"
 weight = 3
 +++
-This page fulfills my legal obligations according to the German Telemedia Act (§ 5 Telemediengesetz)
+Legal obligations according to the German Telemedia Act (§ 5 Telemediengesetz)
 
 ### Name and Address
 Felix Schlösser<br>

@@ -28,7 +28,7 @@ applications = [ "Personal Projects" ]
 [[technical]]
 name = "HTML / CSS (+ JS)"
 level = "intermediate"
-applications = [ "Client Homepages" ]
+applications = [ "Client Websites" ]
 
 [[technical]]
 name = "Haskell & C"

@@ -1,46 +1,36 @@
 base_url = "https://felixschloesser.de"
-compile_sass = true
-build_search_index = false
+title = "Felix Schlösser"
+description = "A CS student currently living in Leuven, Belgium. Sometimes goes by TinTin."
 
-# Language Settings
 default_language = "en"
 
-title = "Felix Schlösser"
-description = "A Software Engineer currently living in Leuven, Belgium. Sometimes goes by TinTin."
+build_search_index = false
+compile_sass = true
+
 
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
-
-# Whether external links are to be opened in a new tab
-# If this is true, a `rel="noopener"` will always automatically be added for security reasons
 external_links_target_blank = false
-
-# Whether to set rel="nofollow" for all external links
 external_links_no_follow = false
-
-# Whether to set rel="noreferrer" for all external links
 external_links_no_referrer = false
 
 
 
 
 [translations]
-occupation = "In-house technical consultant for public sector digitalisation"
+occupation = "Computer Science Student at KU Leuven"
 by = "by"
 source = "source"
 source_code = "source code"
 licenced_under = "licenced under"
 content_licenced_under = "Contents, unless stated otherwise, under"
 powered_by = "powered by"
-zola_description = "a static site generator written in rust"
+zola_description = "a static site generator"
 not_found_message = "Unfortunately this page could not be found."
 back = "Back to the Homepage"
 no_images = "No images found."
-hire_me = "Hire me!"
 
 since = "since"
 experience = "experience"
@@ -51,11 +41,10 @@ supervisors = "supervisors"
 grade = "grade"
 award = "award"
 
-linkedin_cta = "Contact me on LinkedIn"
+linkedin_cta = "Contact on LinkedIn"
 email_cta = "Send Email"
 download_cv_pdf_cta = "Download PDF"
 email_subject = "Job inquiry"
-
 
 programming_languages = "programming languages"
 tools = "tools"
@@ -67,22 +56,22 @@ references = "References available upon request."
 [languages.de]
 # Language specific settigns
 title = "Felix Schlösser"
-description = "Ein Softwareentwickler derzeit in Löwen, Belgien lebt. In machen kontexten auch als TinTin (frz. Tim von Tim und Struppi) bekannt."
+description = "Ein Informatikstudent der derzeit in Löwen, Belgien lebt. In machen Kontexten auch als TinTin (frz. Tim von Tim und Struppi) bekannt."
 
 
 [languages.de.translations]
-occupation = "In-house technischer Berater für die Digitalisierung des öffentlichen Verwaltung"
+occupation = "Informatikstudent an der KU Leuven"
 by = "von"
 source = "Quelle"
 source_code = "Quelltext"
 licenced_under = "lizensiert unter der"
 content_licenced_under = "Inhalte, wenn nicht anders angegeben, unter"
 powered_by = "erstellt mit"
-zola_description = "einem in Rust geschriebenen statischen Seitengenerator"
+zola_description = "einem statischen Seitengenerator"
 not_found_message = "Diese Seite konnte leider nicht gefunden werden."
 back = "Zurück zur Startseite"
 no_images = "Keine Bilder gefunden."
-hire_me = "Stell mich ein!"
+
 since = "seit"
 experience = "Erfahrungen"
 education = "Bildung"
@@ -98,7 +87,6 @@ email_cta = "E-Mail senden"
 download_cv_pdf_cta = "PDF herunterladen"
 email_subject = "Jobanfrage"
 
-
 programming_languages = "Programmiersprachen"
 tools = "Werkzeuge"
 soft_skills = "Soft Skills"
@@ -107,23 +95,17 @@ references = "Referenzen können auf Anfrage zur Verfügung gestellt werden."
 
 
 
-
 [extra]
-brand_text = "TinTin"
+brand_text = "Felix"
 name = "Felix Schlösser"
-nickname = "TinTin"
 image="tintin_in_shenzhen.jpg"
 
-city="Hamburg"
-copyright_year="2023"
-
 source_code_link = "https://github.com/felixschloesser/homepage"
-
 source_code_licence.name = "AGPL v3"
 source_code_licence.link = "https://www.gnu.org/licenses/agpl-3.0.en.html"
 
 content_licence.name = "CC BY-NC-SA 4.0"
-content_licence. link = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+content_licence.link = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 social_media = [
     { url = "https://github.com/felixschloesser/", name="Github", icon = "fab fa-github"},

@@ -8,7 +8,7 @@ Allgemeine Informationspflichten nach § 5 Telemediengesetz (TMG):
 Felix Schlösser<br>
 Mechelsestraat 122<br>
 3000 Löwen<br>
-Belgium
+Belgien
 
 **E-Mail:** [info@felixschloesser.de](mailto:info@felixschloesser.de)
 

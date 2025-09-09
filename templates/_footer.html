@@ -6,7 +6,7 @@
         {{ trans(key="content_licenced_under", lang=lang ) | capitalize }} <a href="{{ config.extra.content_licence.link }}">{{ config.extra.content_licence.name }}</a>.
     </span>
     <span>
-        © {{ config.extra.copyright_year }}, {{ config.extra.name }}.
+        © {{ config.extra.name }}, {{ now() | date(format="%Y") }}.
     </span>
     <p>
         {{ trans(key="powered_by", lang=lang ) | capitalize }} <a href="https://www.getzola.org/">Zola</a>, {{ trans(key="zola_description", lang=lang ) }}.

@@ -2,10 +2,10 @@ first_name = "Felix"
 last_name = "Schlösser"
 
 [address]
-street_name = "Wolfgangsweg"
-house_number = "14"
-post_code = "20459"
-city = "Hamburg"
+street_name = "Mechelsestraat"
+house_number = "122"
+post_code = "3000"
+city = "Leuven"
 
 [job]
 desired_role = "Software Engineer / Consultant"
