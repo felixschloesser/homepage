@@ -1,42 +1,37 @@
-[[experience]]
+[[experiences]]
 title.en = "Software Architecture Consultant and deputy CISO"
 title.de = "Berater Softwarearchitektur und stv. InSiBe"
 description.en = """
-Led requirements elicitation via Event Storming and documented them with User Stories and scenario-driven acceptance criteria to produce executable specifications.
-Augmented specifications with quality scenarios to ensure testability and improve stakeholder communication.
-Introduced Architectural Decision Records (ADRs) and the C4 model to document and optimize software systems and processes.
-Documented and enforced GDPR and information security compliance.
-Prepared management summaries to support strategic technical decisions.
+- Transformed tender documents into testable specifications, shortening procurement cycles and securing quality outcomes.
+- Ensured GDPR and BSI-Grundschutz compliance through threat modeling, *DPIAs*, and coordination of external audits and pen-tests.
+- Introduced architectural standards and semantically interoperable APIs to promote modular and reusable architectures.
+- Advised on low-code platform strategy with emphasis on separation of business logic, audit-trails, and lock-in risks.
 """
-
 description.de = """
-Anforderungserhebung durch Event-Storming und Dokumentation mittels User Stories und szenariobasierten Akzeptanzkriterien, um ausführbare Spezifikationen zu erreichen.
-Ergänzung durch Qualitätsszenarien zur Sicherstellung der Testbarkeit und zur Verbesserung der Stakeholder-Kommunikation.
-Einführung von Architekturentscheidungsprotokollen (ADRs) und C4-Modellierung zur Dokumentation und Optimierung von Softwaresystemen und -prozessen.
-Dokumentation und Durchsetzung der DSGVO- sowie IT-Sicherheits-Compliance.
-Vorbereitung von Management-Zusammenfassungen für strategisch-technische Entscheidungen.
+- Überführung von Ausschreibungsunterlagen in testbare Spezifikationen, Beschaffung beschleunigt und Qualität der Lieferungen sichergestellt.
+- Durchsetzung von DSGVO- und BSI-Grundschutz-Anforderungen mit Bedrohungsmodellierung, *DSFAs* sowie Koordination externer Audits und PenTest.
+- Einführung standardisierter Architekturmethodiken sowie semantisch interoperabler Schnittstellen zur Förderung modularer und wiederverwendbarer Systemarchitekturen.
+- Strategische Beratung bei Auswahl und Einsatz von Low-Code-Plattformen mit Fokus auf Trennung von Geschäftslogik, Auditierbarkeit und Lock-in-Risiken.
 """
 organisation = "Sozialbehörde Hamburg"
 department = "Amt Z"
 location.en = "Hamburg, Germany"
-location.de = "Hamburg,"
+location.de = "Hamburg"
 start_date = "2023-11-15"
 end_date = "2025-08-31"
-keywords = ["DDD", "arc42", "BSI-Grundschutz"]
+keywords = ["BDD", "Low-Code", "BSI-Grundschutz", "BPMN"]
 highlight = "Requirements-Engineering"
 
-[[experience]]
+[[experiences]]
 title.en = "Full-Stack Web Developer and Sysadmin"
 title.de = "Full-Stack-Webentwickler und Sysadmin"
 description.en = """
-Developed and deployed a custom CMS backend and frontend, as well as internal CRUD web applications.
-Deployed and operated several on-premises services on virtual machines using Ansible;
-including observability metrics and alerting.
+- Developed and maintained a custom CMS backend and frontend, as well as back-office CRUD web applications.
+- Deployed and operated several on-premises services using Ansible, including observability with metrics and alerting.
 """
 description.de = """
-Entwicklung eines custom CMS Back- und Frontends sowie interner CRUD Webanwendungen.
-Betrieb mehrere On-Premises-Dienste auf virtuellen Maschinen mit Ansible;
-inklusive Observability, Metriken und Alarmen.
+- Entwicklung und Wartung eines custom CMS Back- und Frontends sowie interner CRUD Webanwendungen.
+- Betrieb mehrerer On-Premises-Dienste; inklusive Observability mit Metriken und Alarmen.
 """
 organisation = "TU-Hamburg"
 department = "AStA"
@@ -44,43 +39,38 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2019-10-01"
 end_date = "2023-03-31"
-keywords = ["Wagtail-CMS", "Pretix Ticketing", "Bookstack Wiki"]
+keywords = ["Wagtail-CMS", "Pretix", "Ansible", "Prometheus"]
 highlight = "Django"
 
-[[experience]]
-title.en = "Teaching Assistant: Python for Data Analysis"
-title.de = "Tutor: Python für Datenanalyse"
+[[experiences]]
+title.en = "Teaching Assistant: Internet Security and Data Analysis"
+title.de = "Tutor: Internetsicherheit und Datenanalyse"
 description.en = """
-Taught weekly classes for up to 20 students. Topics included everything from algorithms to
-data analysis, visualization and machine learning.
+Led and developed labs-sessions on the OSI model, network programming and IP, TLS and DNS security as well es an excercises on algorithms,
+data analysis, visualization and machine learning for up to 25 students.
 """
 description.de = """
-Leitung wöchentlicher Übungen für bis zu 20 Studierende. Themen umfassten alles von Algorithmen bis hin zu
-Datenanalyse, Visualisierung und maschinellem Lernen.
+Leitung und Weiterentwicklung von Laboren über das OSI-Modell, Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit, sowie Übungen zu Algorithmen, Datenanalyse und ML für bis zu 25 Studierenden.
 """
 organisation = "TU Hamburg"
-department = "Institute for Secure Cyberphysical Systems"
+department = "Institute for Communication Networks and Secure Cyberphysical Systems"
 location.en = "Hamburg, Germany"
 location.de = "Hamburg"
-start_date = "2023-03-01"
+start_date = "2018-10-01"
 end_date = "2023-07-31"
-keywords = ["matplotlib", "pandas"]
-highlight = "scikit-learn"
+keywords = ["Raspberry Pi", "wireshark", "pandas", "scikit-learn"]
+highlight = "Lehrpreis 2020"
 
-[[experience]]
+[[experiences]]
 title.en = "User Interface Developer for a Medical Device"
 title.de = "Benutzeroberflächenentwickler für ein Medizinprodukt"
 description.en = """
-Designed, developed and deployed a graphical user interface for an
-open hardware ventilator, created by a small team of volunteers.
-Financed by the German Federal Ministry for Economic Cooperation and Development and certified by TÜV-Süd
-for manufacturing in newly industrialized countries.
+Implemented a GUI for an ventilator developed by a volunteer team during the COVID19-Pandemic.
+Financed by the German Federal Ministry for Economic Cooperation and Development and certified by TÜV for manufacturing in developing countries.
 """
 description.de = """
-Design und Entwicklung einer grafischen Benutzeroberfläche für ein
-Open-Hardware-Beatmungsgerät, das von einem kleinen Team von Freiwilligen entwickelt wurde.
-Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung und vom TÜV-Süd zertifiziert
-für die Fertigung in Schwellenländern.
+Entwicklung eines GUI für ein Beatmungsgerät, das von Freiwilligen während der Corona-Pandemie entwickelt wurde.
+Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung und vom TÜV-zertifiziert zur Fertigung in Schwellenländern.
 """
 organisation = "TM Rescue-Respiration UG"
 location.en = "Hamburg, Germany"
@@ -89,47 +79,20 @@ start_date = "2020-08-01"
 end_date = "2022-07-28"
 keywords = ["V-Modell", "Model-View-Presenter", "PyQt5", "pytest"]
 
-[[experience]]
-title.en = "Teaching Assistant: Computer Networks and Internet Security"
-title.de = "Tutor: Rechnernetze und Internetsicherheit"
+[[experiences]]
+title.en = "Intern: Computer Vision Quality Control"
+title.de = "Praktikant: Computer-Vision Qualitätskontrolle"
 description.en = """
-Developed and taught weekly Rasberry Pi based labs for up to 25 students.
-Topics included the OSI model, network programming and IP, TLS and DNS security.
+Developed a prototype for industrial defect detection in curved metal surfaces that extracted features and produced a large image dataset.
 """
 description.de = """
-Leitung wöchentlicher Laborübugen auf Basis von Raspberry Pis für bis zu 25 Studierende. Themen waren u.a. das OSI-Modell,
-Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit.
-"""
-organisation = "TU Hamburg"
-department = "Institute for Communication Networks"
-location.en = "Hamburg, Germany"
-location.de = "Hamburg"
-start_date = "2018-10-01"
-end_date = "2023-01-31"
-keywords = ["Raspberry Pi", "wireshark", "netem"]
-highlight = "Lehrpreis 2020"
-
-
-
-[[experience]]
-title.en = "Intern: Computer Vision based Quality Control"
-title.de = "Praktikant: Computer-Vision basierte Qualitätskontrolle"
-description.en = """
-Researched and developed a computer vision based industrial quality control system to identify defects in
-glossy, curved surface, metal parts. Created a capture setup and a dataset of 1000+ images.
-Developed a containerized jupyter notebook based prototype using edge detection and morphological operations for feature extraction.
-"""
-description.de = """
-Erforschung und frühe Entwicklung eines computergestützten industriellen Qualitätssicherungssystems zur Identifizierung von Defekten in
-glänzenden, gekrümmten Metalloberflächen. Erstellung eines Aufnahmesetup und eines Datensatz von 1000+ Bildern.
-Entwicklung eines containerisierten Prototypen auf Basis eines Jupyter-Notebooks mit Kantenfindung und
-morphologischen Operationen zur Merkmalsextraktion.
+Entwicklung eines Prototyps zur industriellen Fehlererkennung auf gekrümmten Metalloberflächen, die Merkmale extrahierte und einen Bilddatensatz erzeugte.
 """
 organisation = "Rongheng Information Technology Co."
 location.en = "Shanghai, China"
 location.de = "Shanghai, China"
 start_date = "2019-07-01"
 end_date = "2019-09-30"
-keywords = ["SCRUM", "docker", "jupyter", "scikit-image"]
+keywords = ["SCRUM", "docker", "scikit-image"]
 
 

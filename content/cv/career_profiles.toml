@@ -1,0 +1,30 @@
+[privacy_and_security]
+role.en = "Software Architect & Security Engineer"
+role.de = "Softwarearchitekt & Security Engineer"
+
+description.en = """
+M.Sc. **Secure Software** at **KU Leuven** with prior experience as Deputy CISO in the public sector.
+Expertise in **GDPR** and **ISMS compliance**, *privacy by design*, and secure digital transformation of government services.
+Combines architecture and DevOps skills with strong **stakeholder communication** to deliver compliant and trustworthy systems.
+"""
+description.de = """
+M.Sc. **Secure Software** an der **KU Leuven**, zuvor stellvertretender InSiBe in der öffentlichen Verwaltung.
+Expertise in **DSGVO-** und **BSI-Grundschutz**-Compliance, *Datenschutz durch Technikgestaltung* und sicherer Digitalisierung staatlicher Dienstleistungen.
+Verbindet Architektur- und DevOps-Kompetenz mit starker **Stakeholder-Kommunikation** zur Umsetzung regelkonformer und vertrauenswürdiger Systeme.
+"""
+
+
+[software_engineering]
+role.en = "Software Engineer & Security Architect"
+role.de = "Softwareentwickler & Security-Architekt"
+
+description.en = """
+Experience in **full-stack development**, **DevOps automation**, and **software architecture**.
+Currently pursuing an **M.Sc. Secure Software** at **KU Leuven** and previously served as **Deputy CISO** in the German public sector.
+Proven ability to design and implement **robust systems** – from **government platforms** to **TÜV-certified medical devices** – with strong expertise in *privacy engineering*.
+"""
+description.de = """
+Erfahrung in **Full-Stack-Entwicklung**, **DevOps-Automatisierung** und **Softwarearchitektur**.
+Derzeit **M.Sc.-Studium Secure Software** an der **KU Leuven**, zuvor **stellvertretender CISO** in der deutschen öffentlichen Verwaltung.
+Nachweisliche Fähigkeit zur **Konzeption und Umsetzung robuster Systeme** – von **staatlichen Plattformen** bis hin zu **TÜV-zertifizierten Medizinprodukten** – mit fundierter Expertise im *Privacy Engineering*.
+"""

@@ -1,55 +1,54 @@
-[[technical]]
-name = "Python"
-level = "advanced"
-applications = [ "Web Backend", "GUI", "Data Analysis", "ML" ]
+[[core]]
+title.en = "Requirements Engineering & Specification"
+title.de = "Anforderungsmanagement & Spezifikation"
+description.en = "Using *DDD*, *user story mapping*, and *quality scenarios* to derive testable, executable specifications."
+description.de = "Mit *DDD*, *User Story Mapping* und *Qualitätsszenarien* zur Ableitung testbarer, ausführbarer Spezifikationen."
 
-[[technical]]
-name = "Linux DevOps"
-level = "intermediate"
-applications = [ "Ansible", "GitLab CI/CD", "prometheus"]
-
-[[technical]]
-name = "Databases"
-level = "intermediate"
-applications = [ "PostgreSQL", "DuckDB", "Redis"]
-
-[[technical]]
-name = "System Design"
-level = "intermediate"
-applications = [ "DDD", "Microservices", "JAMStack"]
+[[core]]
+title.en = "Security & Privacy by Design"
+title.de = "Security & Privacy by Design"
+description.en = "Systematically enforced using *STRIDE* and *LINDDUN*, proof of GDPR-compliance."
+description.de = "Systematische Durchsetzung mit *STRIDE* und *LINDDUN*, Nachweis der DSGVO-Compliance."
 
 
-
-[[technical]]
-name = "Rust"
-level = "intermediate"
-applications = [ "Personal Projects" ]
-
-[[technical]]
-name = "HTML / CSS (+ JS)"
-level = "intermediate"
-applications = [ "Client Websites" ]
-
-[[technical]]
-name = "Haskell & C"
-level = "basic"
-applications = [ "University Projects" ]
+[[core]]
+title.en = "Software Development"
+title.de = "Softwareentwicklung"
+description.en = "Backend systems in statically typed Python (*mypy*, *pydantic*, *FastAPI*); hobby projects in Rust, Haskell, C."
+description.de = "Backend-Systeme in statisch typisiertem Python (*mypy*, *pydantic*, *FastAPI*); Hobbyprojekte in Rust, Haskell, C."
 
 
 
-[[soft]]
-name.en = "Teamwork & Communication"
-name.de = "Teamarbeit & Kommunikation"
-contexts.en = [
-  "First chair of the board of student representatives (AStA)",
-  "Scout leader",
-  "NGO volunteering",
-]
-contexts.de = [
-  "Erster Vorsitzender des allgemeinen Studierendenausschusses",
-  "Pfadfinderleiter",
-  "Freiwilligenarbeit bei NGOs"
-]
+[[supporting]]
+title.en = "Architecture & Documentation"
+title.de = "Architektur & Dokumentation"
+description.en = "C4 modeling, arc42 documentation, and decision logs via ADRs."
+description.de = "C4-Modellierung, arc42-Dokumentation und Entscheidungsprotokolle mit ADRs."
+
+[[supporting]]
+title.en = "Web APIs & lightweight Frontends"
+title.de = "Web-APIs & schlanke Frontends"
+description.en = "RESTful APIs with *OpenAPI*; *JAMStack* or *HTMX* for UI."
+description.de = "REST-APIs mit *OpenAPI*; *JAMStack* oder *HTMX* für UIs."
+
+[[collaboration_and_leadership]]
+title.en = "Stakeholder Communication"
+title.de = "Stakeholder-Kommunikation"
+description.en = "Bridged gaps between domain experts, engineers, and compliance officers."
+description.de = "Schnittstelle zwischen Fachexperten, Entwicklern und Compliance-Verantwortlichen."
+
+
+[[collaboration_and_leadership]]
+title.en = "Chair of the Student Council"
+title.de = "AStA-Vorsitzender"
+description.en = "Elected representative of 7,000+ students."
+description.de = "Gewählte Vertretung von 7.000+ Studierenden."
+
+[[collaboration_and_leadership]]
+title.en = "Teaching Assistant"
+title.de = "Tutor"
+description.en = "Awarded the Teaching-Prize 2020 for excellence."
+description.de = "Auszeichnung mit dem Lehrpreis 2020 für exzellente Lehre und Betreuung."
 
 
 
@@ -73,14 +72,7 @@ level.de = "B2"
 
 [[languages]]
 name.en = "Dutch"
-name.de = "Niederländsich"
+name.de = "Niederländisch"
 level.en = "B1"
 level.de = "B1"
-
-[[languages]]
-name.en = "Japanese"
-name.de = "Japanisch"
-level.en = "JLPT N4"
-level.de = "JLPT N4"
-
 

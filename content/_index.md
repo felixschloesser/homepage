@@ -1,5 +1,6 @@
 +++
 title = 'Hi'
+template="home.html"
 [extra]
 image.path = "images/portrait-smiling.jpg"
 image.alt = "Frontal portrait: smiling person with short hair, round metal glasses, and a reddish full beard; wearing a linen shirt against a light background."

@@ -29,27 +29,26 @@ content_licenced_under = "Contents, unless stated otherwise, under"
 powered_by = "powered by"
 zola_description = "a static site generator"
 not_found_message = "Unfortunately this page could not be found."
-back = "Back to the Homepage"
+back_to_home = "Back to the Homepage"
 no_images = "No images found."
 
 since = "since"
 experience = "experience"
 education = "education"
+
+linkedin_cta = "contact on LinkedIn"
+email_cta = "send email"
+download_cv_pdf_cta = "download PDF"
+email_subject = "job inquiry"
+
 skills = "skills"
-thesis = "thesis"
-supervisors = "supervisors"
-grade = "grade"
-award = "award"
 
-linkedin_cta = "Contact on LinkedIn"
-email_cta = "Send Email"
-download_cv_pdf_cta = "Download PDF"
-email_subject = "Job inquiry"
-
-programming_languages = "programming languages"
-tools = "tools"
-soft_skills = "soft skills"
+highlights = "highlights"
+core_competencies = "core competencies"
+supporting_skills = "supporting skills"
+collaboration_and_leadership = "collaboration & leadership"
 languages = "languages"
+
 references = "References available upon request."
 
 
@@ -77,27 +76,25 @@ experience = "Erfahrungen"
 education = "Bildung"
 skills = "Fähigkeiten"
 
-thesis = "Abschlussarbeit"
-supervisors = "Betreuer"
-grade = "Note"
-award = "Auszeichnung"
-
 linkedin_cta = "Auf LinkedIn kontaktieren"
 email_cta = "E-Mail senden"
 download_cv_pdf_cta = "PDF herunterladen"
 email_subject = "Jobanfrage"
 
-programming_languages = "Programmiersprachen"
-tools = "Werkzeuge"
-soft_skills = "Soft Skills"
-languages = "Sprachen"
 references = "Referenzen können auf Anfrage zur Verfügung gestellt werden."
+
+highlights = "highlights"
+core_competencies = "Kernkompetenzen"
+supporting_skills = "Ergänzende Fähigkeiten"
+collaboration_and_leadership = "Zusammenarbeit & Führung"
+languages = "Sprachen"
 
 
 
 [extra]
 brand_text = "Felix"
 name = "Felix Schlösser"
+email = "info@felixschloesser.de"
 image="tintin_in_shenzhen.jpg"
 
 source_code_link = "https://github.com/felixschloesser/homepage"
@@ -107,10 +104,20 @@ source_code_licence.link = "https://www.gnu.org/licenses/agpl-3.0.en.html"
 content_licence.name = "CC BY-NC-SA 4.0"
 content_licence.link = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
+cv_focus = "privacy_and_security" # or "software_engineering"
+
 social_media = [
     { url = "https://github.com/felixschloesser/", name="Github", icon = "fab fa-github"},
     { url = "https://noc.social/@tintin", name="Mastodon", icon = "fab fa-mastodon"},
     { url = "mailto:info@felixschloesser.de", name="Mail", icon = "fas fa-envelope"},
     { url = "https://www.linkedin.com/in/felix-schl%C3%B6sser-115792292/", name = "LinkedIn", icon = "fab fa-linkedin"}
 ]
+
+[extra.address]
+street_name = "Mechelsestraat"
+house_number = "122"
+post_code = "3000"
+city = "Leuven"
+
+
 

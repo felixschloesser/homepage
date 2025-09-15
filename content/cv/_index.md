@@ -1,6 +1,7 @@
 +++
 title = "CV"
 weight=1
-template="curriculum_vitae.html"
+template="cv.html"
 page_template = "page.html"
 +++
+
