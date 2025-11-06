@@ -31,6 +31,14 @@ title.de = "Web-APIs & schlanke Frontends"
 description.en = "RESTful APIs with *OpenAPI*; *JAMStack* or *HTMX* for UI."
 description.de = "REST-APIs mit *OpenAPI*; *JAMStack* oder *HTMX* für UIs."
 
+
+[[supporting]]
+title.en = "Deployment & Operations"
+title.de = "Deployment & Betrieb"
+description.en = "Distributed architectures with Docker and Kubernetes."
+description.de = "Verteilte Architekturen mit Docker und Kubernetes."
+
+
 [[collaboration_and_leadership]]
 title.en = "Stakeholder Communication"
 title.de = "Stakeholder-Kommunikation"
