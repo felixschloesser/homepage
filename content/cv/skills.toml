@@ -35,8 +35,8 @@ description.de = "REST-APIs mit *OpenAPI*; *JAMStack* oder *HTMX* für UIs."
 [[supporting]]
 title.en = "Deployment & Operations"
 title.de = "Deployment & Betrieb"
-description.en = "Distributed architectures with Docker and Kubernetes."
-description.de = "Verteilte Architekturen mit Docker und Kubernetes."
+description.en = "Kubernetes, metrics, structured logs, and alerting rules."
+description.de = "Kubernetes, Metriken, strukturiertes Logging und Alerting-Regeln."
 
 
 [[collaboration_and_leadership]]
