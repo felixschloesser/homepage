@@ -19,7 +19,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2023-11-15"
 end_date = "2025-08-31"
-keywords = ["BDD", "Low-Code", "BSI-Grundschutz", "BPMN"]
+keywords = ["BDD", "BSI-Grundschutz", "BPMN"]
 highlight = "Requirements-Engineering"
 
 [[experiences]]
@@ -39,7 +39,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2019-10-01"
 end_date = "2023-03-31"
-keywords = ["Wagtail-CMS", "Pretix", "Ansible", "Prometheus"]
+keywords = ["Wagtail-CMS", "Ansible", "Prometheus"]
 highlight = "Django"
 
 [[experiences]]
@@ -58,7 +58,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2018-10-01"
 end_date = "2023-07-31"
-keywords = ["Raspberry Pi", "wireshark", "pandas", "scikit-learn"]
+keywords = ["Raspberry Pi", "wireshark", "scikit-learn"]
 highlight = "Lehrpreis 2020"
 
 [[experiences]]
@@ -77,7 +77,7 @@ location.en = "Hamburg, Germany"
 location.de = "Hamburg"
 start_date = "2020-08-01"
 end_date = "2022-07-28"
-keywords = ["V-Modell", "Model-View-Presenter", "PyQt5", "pytest"]
+keywords = ["V-Modell", "PyQt5", "pytest"]
 
 [[experiences]]
 title.en = "Intern: Computer Vision Quality Control"
