@@ -1,8 +1,8 @@
 [[core]]
 title.en = "Requirements Engineering & Specification"
 title.de = "Anforderungsmanagement & Spezifikation"
-description.en = "Using *Event-Storming*, *user story mapping*, and *quality scenarios* to derive testable, executable specifications."
-description.de = "Mit *Event Storming*, *User Story Mapping* und *Qualitätsszenarien* zur Ableitung testbarer, ausführbarer Spezifikationen."
+description.en = "Using *event-storming*, *user story mapping*, and *quality scenarios* to derive testable, executable specifications."
+description.de = "Mit *Event Storming*, *User Story Mapping* und *Qualitätsszenarien* zu testbaren, ausführbaren Spezifikationen."
 
 [[core]]
 title.en = "Security & Privacy by Design"
