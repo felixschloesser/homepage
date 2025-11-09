@@ -6,20 +6,20 @@ location.de = "Belgien"
 start_date = "2025-09-01"
 
 [[educations]]
-title = "Computer Science (B.Sc.), Software Engineering"
-organisation = "TU Hamburg"
-location.en = "Germany"
-location.de = "Deutschland"
-start_date = "2016-10-01"
-end_date = "2024-03-27"
-
-[[educations]]
 title = "Erasumus+"
 organisation = "Université de Technologie de Compiègne"
 location.en = "France"
 location.de = "Frankreich"
 start_date = "2022-02-01"
 end_date = "2022-08-01"
+
+[[educations]]
+title = "Computer Science (B.Sc.), Software Engineering"
+organisation = "TU Hamburg"
+location.en = "Germany"
+location.de = "Deutschland"
+start_date = "2016-10-01"
+end_date = "2024-03-27"
 
 # [[educations]]
 # title = "Asian Languages and Cultures"
