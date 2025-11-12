@@ -1,0 +1,98 @@
+[[experiences]]
+title.en = "Software Architecture Consultant and deputy CISO"
+title.de = "Berater Softwarearchitektur und stv. InSiBe"
+description.en = """
+- Transformed tender documents into testable specifications, shortening procurement cycles and securing quality outcomes.
+- Ensured GDPR and BSI-Grundschutz compliance through threat modeling, *DPIAs*, and coordination of external audits and pen-tests.
+- Introduced architectural standards and semantically interoperable APIs to promote modular and reusable architectures.
+- Advised on low-code platform strategy with emphasis on separation of business logic, audit-trails, and lock-in risks.
+"""
+description.de = """
+- Überführung von Ausschreibungsunterlagen in testbare Spezifikationen, Beschaffung beschleunigt und Qualität der Lieferungen sichergestellt.
+- Durchsetzung von DSGVO- und BSI-Grundschutz-Anforderungen mit Bedrohungsmodellierung, *DSFAs* sowie Koordination externer Audits und PenTest.
+- Einführung standardisierter Architekturmethodiken sowie semantisch interoperabler Schnittstellen zur Förderung modularer und wiederverwendbarer Systemarchitekturen.
+- Strategische Beratung bei Auswahl und Einsatz von Low-Code-Plattformen mit Fokus auf Trennung von Geschäftslogik, Auditierbarkeit und Lock-in-Risiken.
+"""
+organisation = "Sozialbehörde Hamburg"
+department = "Amt Z"
+location.en = "Hamburg, Germany"
+location.de = "Hamburg"
+start_date = "2023-11-15"
+end_date = "2025-08-31"
+keywords = ["BDD", "BSI-Grundschutz", "BPMN"]
+highlight = "Requirements-Engineering"
+
+[[experiences]]
+title.en = "Full-Stack Web Developer and Sysadmin"
+title.de = "Full-Stack-Webentwickler und Sysadmin"
+description.en = """
+- Developed and maintained a custom CMS backend and frontend, as well as back-office CRUD web applications.
+- Deployed and operated several on-premises services using Ansible, including observability with metrics and alerting.
+"""
+description.de = """
+- Entwicklung und Wartung eines custom CMS Back- und Frontends sowie interner CRUD Webanwendungen.
+- Betrieb mehrerer On-Premises-Dienste; inklusive Observability mit Metriken und Alarmen.
+"""
+organisation = "TU-Hamburg"
+department = "AStA"
+location.en = "Hamburg, Germany"
+location.de = "Hamburg"
+start_date = "2019-10-01"
+end_date = "2023-03-31"
+keywords = ["Wagtail-CMS", "Ansible", "Prometheus"]
+highlight = "Django"
+
+[[experiences]]
+title.en = "Teaching Assistant: Internet Security and Data Analysis"
+title.de = "Tutor: Internetsicherheit und Datenanalyse"
+description.en = """
+Led and developed labs-sessions on the OSI model, network programming and IP, TLS and DNS security as well es an excercises on algorithms,
+data analysis, visualization and machine learning for up to 25 students.
+"""
+description.de = """
+Leitung und Weiterentwicklung von Laboren über das OSI-Modell, Netzwerkprogrammierung und IP-, TLS- und DNS-Sicherheit, sowie Übungen zu Algorithmen, Datenanalyse und ML für bis zu 25 Studierenden.
+"""
+organisation = "TU Hamburg"
+department = "Institute for Communication Networks and Secure Cyberphysical Systems"
+location.en = "Hamburg, Germany"
+location.de = "Hamburg"
+start_date = "2018-10-01"
+end_date = "2023-07-31"
+keywords = ["Raspberry Pi", "wireshark", "scikit-learn"]
+highlight = "Lehrpreis 2020"
+
+[[experiences]]
+title.en = "User Interface Developer for a Medical Device"
+title.de = "Benutzeroberflächenentwickler für ein Medizinprodukt"
+description.en = """
+Implemented a GUI for an ventilator developed by a volunteer team during the COVID19-Pandemic.
+Financed by the German Federal Ministry for Economic Cooperation and Development and certified by TÜV for manufacturing in developing countries.
+"""
+description.de = """
+Entwicklung eines GUI für ein Beatmungsgerät, das von Freiwilligen während der Corona-Pandemie entwickelt wurde.
+Finanziert vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung und vom TÜV-zertifiziert zur Fertigung in Schwellenländern.
+"""
+organisation = "TM Rescue-Respiration UG"
+location.en = "Hamburg, Germany"
+location.de = "Hamburg"
+start_date = "2020-08-01"
+end_date = "2022-07-28"
+keywords = ["V-Modell", "PyQt5", "pytest"]
+
+[[experiences]]
+title.en = "Intern: Computer Vision Quality Control"
+title.de = "Praktikant: Computer-Vision Qualitätskontrolle"
+description.en = """
+Developed a prototype for industrial defect detection in curved metal surfaces that extracted features and produced a large image dataset.
+"""
+description.de = """
+Entwicklung eines Prototyps zur industriellen Fehlererkennung auf gekrümmten Metalloberflächen, die Merkmale extrahierte und einen Bilddatensatz erzeugte.
+"""
+organisation = "Rongheng Information Technology Co."
+location.en = "Shanghai, China"
+location.de = "Shanghai, China"
+start_date = "2019-07-01"
+end_date = "2019-09-30"
+keywords = ["SCRUM", "docker", "scikit-image"]
+
+

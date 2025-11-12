@@ -1,0 +1,86 @@
+[[core]]
+title.en = "Requirements Engineering & Specification"
+title.de = "Anforderungsmanagement & Spezifikation"
+description.en = "Using *event-storming*, *user story mapping*, and *quality scenarios* to derive testable, executable specifications."
+description.de = "Mit *Event Storming*, *User Story Mapping* und *Qualitätsszenarien* zu testbaren, ausführbaren Spezifikationen."
+
+[[core]]
+title.en = "Security & Privacy by Design"
+title.de = "Security & Privacy by Design"
+description.en = "Systematically enforced using *STRIDE* and *LINDDUN*, proof of GDPR-compliance."
+description.de = "Systematische Durchsetzung mit *STRIDE* und *LINDDUN*, Nachweis der DSGVO-Compliance."
+
+
+[[core]]
+title.en = "Software Development"
+title.de = "Softwareentwicklung"
+description.en = "Backend systems in statically typed Python (*mypy*, *pydantic*, *FastAPI*); hobby projects in Rust, Haskell, C."
+description.de = "Backend-Systeme in statisch typisiertem Python (*mypy*, *pydantic*, *FastAPI*); Hobbyprojekte in Rust, Haskell, C."
+
+
+
+[[supporting]]
+title.en = "Architecture & Documentation"
+title.de = "Architektur & Dokumentation"
+description.en = "arc42, C4 modeling and decision records (ADRs)."
+description.de = "arc42, C4-Modellierung und Entscheidungsprotokolle (ADRs)."
+
+[[supporting]]
+title.en = "Web APIs & lightweight Frontends"
+title.de = "Web-APIs & schlanke Frontends"
+description.en = "RESTful APIs with *OpenAPI*; *JAMStack* or *HTMX* for UI."
+description.de = "REST-APIs mit *OpenAPI*; *JAMStack* oder *HTMX* für UIs."
+
+
+[[supporting]]
+title.en = "Deployment & Operations"
+title.de = "Deployment & Betrieb"
+description.en = "Kubernetes, metrics, structured logs, and alerting rules."
+description.de = "Kubernetes, Metriken, strukturiertes Logging und Alerting-Regeln."
+
+
+[[collaboration_and_leadership]]
+title.en = "Stakeholder Communication"
+title.de = "Stakeholder-Kommunikation"
+description.en = "Bridged gaps between domain experts, engineers, and compliance officers."
+description.de = "Schnittstelle zwischen Fachexperten, Entwicklern und Compliance-Verantwortlichen."
+
+
+[[collaboration_and_leadership]]
+title.en = "Chair of the Student Council"
+title.de = "AStA-Vorsitzender"
+description.en = "Elected representative of 7,000+ students."
+description.de = "Gewählte Vertretung von 7.000+ Studierenden."
+
+[[collaboration_and_leadership]]
+title.en = "Teaching Assistant"
+title.de = "Tutor"
+description.en = "Awarded the Teaching-Prize 2020 for excellence."
+description.de = "Auszeichnung mit dem Lehrpreis 2020 für exzellente Lehre und Betreuung."
+
+
+
+[[languages]]
+name.en = "German"
+name.de = "Deutsch"
+level.en = "Native"
+level.de = "Muttersprache"
+
+[[languages]]
+name.en = "English"
+name.de = "Englisch"
+level.en = "C1"
+level.de = "C1"
+
+[[languages]]
+name.en = "French"
+name.de = "Französisch"
+level.en = "B2"
+level.de = "B2"
+
+[[languages]]
+name.en = "Dutch"
+name.de = "Niederländisch"
+level.en = "B1"
+level.de = "B1"
+
