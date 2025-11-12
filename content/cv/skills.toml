@@ -22,8 +22,8 @@ description.de = "Backend-Systeme in statisch typisiertem Python (*mypy*, *pydan
 [[supporting]]
 title.en = "Architecture & Documentation"
 title.de = "Architektur & Dokumentation"
-description.en = "C4 modeling, arc42 documentation, and decision logs via ADRs."
-description.de = "C4-Modellierung, arc42-Dokumentation und Entscheidungsprotokolle mit ADRs."
+description.en = "arc42, C4 modeling and decision records (ADRs)."
+description.de = "arc42, C4-Modellierung und Entscheidungsprotokolle (ADRs)."
 
 [[supporting]]
 title.en = "Web APIs & lightweight Frontends"
